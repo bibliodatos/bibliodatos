@@ -12,3 +12,5 @@ My personal text copy of the History of Marlow, New Hampshire sat unused for yea
 ## - [Streets/Roads Index](Streets.txt)
 
 These indexes are no doubt far from perfect. The text itself is not perfect. What is accomplished above is something to fill that void so that other researchers can quickly gain access to the wealth of information in the book without resorting to scanning the book like I did.  If the History of Marlow, New Hampshire is something of interest to you I hope you will support the [Marlow Historical Society](http://www.marlownewhampshire.org/marlow-historical-society.php).  Copies of the book are available for sale from their website.  The indexes I have created are made available by me for free. Please be aware that the indexes are made from the 2002 version of the book. The names for the most part are as found in the text. There are references to Haselton, Hasleton and Hazelton names for example.
+
+[Home Page](../)
