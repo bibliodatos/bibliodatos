@@ -1,5 +1,5 @@
 ---
-permalink: /404.html
+permalink: index.html
 ---
 ![History of Marlow cover picture](marlow_cover.png)
 
