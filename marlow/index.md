@@ -1,6 +1,4 @@
----
-permalink: index.html
----
+
 ![History of Marlow cover picture](marlow_cover.png)
 
 Many years ago I was researching my family history and I determined that my 5th great grandfather spent some years living in a small town named Marlow in Cheshire County, New Hampshire. At that time he was the farthest back I had been able to trace my direct paternal line.  This man, Benajah Maynard, was a bit of a brick wall in my research.  I learned of a local history of Marlow compiled by Elgin Jones prior to his death in 1934 and reedited by the [Marlow Historical Society](http://www.marlownewhampshire.org/marlow-historical-society.php) in 2002. I quickly ordered a copy of the book and eagerly waited the delivery.  The book, while a treasure trove of information for my research, did not contain an index with which I could quickly lookup the relevant pages for persons of interest to me. I considered the work it would take to carefully read each page looking for potential family names as I went. I eventually decided to scan the pages and use OCR software to create my own personal electronic text version.  I accomplished the scan and after quite a bit of manual editing to correct for OCR errors I was able to do a text search for my Maynards.  To my delight I found a note in the text indicating that a Jabez/Jabes Maynard was Benajah's father.  Just the breakthrough I needed for my research.
