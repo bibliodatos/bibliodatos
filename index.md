@@ -6,6 +6,6 @@ title: Mike Maynard
 
 | Projects   | <!-- -->    |
 ------------ | ------------
-[Surname index project](marlow/) for Marlow, New Hampshire |  [Top 50 Marlow surnames word cloud](marlow/surname_d3.html)
+[Surname index project](marlow/) for Marlow, New Hampshire |  [Top 50 Marlow surnames word cloud](marlow/cloud.html)
 
 
