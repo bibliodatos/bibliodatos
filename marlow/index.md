@@ -1,7 +1,7 @@
 ---
 title: Mike Maynard | Marlow Indexing Project
 ---
-## Marlow book indexing project
+## Marlow, New Hampshire book indexing project
 #### Implemented in Python
 
 ### - [Surnames Index](Surname.txt)
