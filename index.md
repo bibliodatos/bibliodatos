@@ -4,7 +4,7 @@ title: Mike Maynard
 ---
 ## Welcome to my data projects portfolio. 
 
-| Projects   | <!-- -->    |
+| Projects   | Visuals   |
 ------------ | ------------
 [Surname index project](marlow/) for Marlow, New Hampshire |  [Top 50 Marlow surnames word cloud](marlow/cloud.html)
 
