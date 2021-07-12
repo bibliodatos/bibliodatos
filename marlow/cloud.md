@@ -10,4 +10,4 @@ title: Marlow Word Cloud
 Created by **Mike Maynard**<BR>
 Implemented in **D3.js JavaScript library**<BR>
 Last updated:  **2021-07-12**<BR>
-Data source:  History of Marlow, New Hampshire by Elgin Jones<BR>
+Data source:  _History of Marlow, New Hampshire by Elgin Jones_
