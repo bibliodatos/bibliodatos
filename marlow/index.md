@@ -6,6 +6,10 @@ title: Mike Maynard | Marlow Indexing Project
 ### The Goal:
 Create indexes for an unindexed book in order to help family history researchers and genealogists.
 
+### The Data:
+<cite>History of Marlow, New Hampshire by Elgin Jones</cite>
+
+
 ### The Indexes:
 
 #### - [Surnames Index](Surname.txt)
