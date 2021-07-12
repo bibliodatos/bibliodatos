@@ -13,7 +13,7 @@
   return colors_g[n % colors_g.length];
   }
 
-  d3.layout.cloud().size([700, 700])
+  d3.layout.cloud().size([700, 500])
       .words(gword)
       .rotate(function() { return 0; })
       .font("Impact")
@@ -24,9 +24,9 @@
   function draw(words) {
     d3.select("body").append("svg")
         .attr("width", 700)
-        .attr("height", 700)
+        .attr("height", 500)
       .append("g")
-        .attr("transform", "translate(350,350)")
+        .attr("transform", "translate(350,250)")
       .selectAll("text")
         .data(words)
       .enter().append("text")
