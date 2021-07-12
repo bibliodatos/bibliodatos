@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<script src="d3.v2.js"></script>
+<script src="d3.layout.cloud.js"></script>
+<script src="gword.js"></script>
+<body>
+<H2>Marlow New Hampshire Surnames</H2>
+<script>
+  // var fill = d3.scale.google10();
+  // var fill = ["#3366cc", "#dc3912", "#ff9900", "#109618", "#990099", "#0099c6", "#dd4477", "#66aa00", "#b82e2e", "#316395", "#994499", "#22aa99", "#aaaa11", "#6633cc", "#e67300", "#8b0707", "#651067", "#329262", "#5574a6", "#3b3eac"];
+  function fill(n) {
+  var colors_g = ["#3366cc", "#dc3912", "#ff9900", "#109618", "#990099", "#0099c6", "#dd4477", "#66aa00", "#b82e2e", "#316395", "#994499", "#22aa99", "#aaaa11", "#6633cc", "#e67300", "#8b0707", "#651067", "#329262", "#5574a6", "#3b3eac"];
+  return colors_g[n % colors_g.length];
+  }
+
+  d3.layout.cloud().size([700, 700])
+      .words(gword)
+      .rotate(function() { return 0; })
+      .font("Impact")
+      .fontSize(function(d) { return d.size; })
+      .on("end", draw)
+      .start();
+
+  function draw(words) {
+    d3.select("body").append("svg")
+        .attr("width", 700)
+        .attr("height", 700)
+      .append("g")
+        .attr("transform", "translate(350,350)")
+      .selectAll("text")
+        .data(words)
+      .enter().append("text")
+        .style("font-size", function(d) { return d.size + "px"; })
+        .style("font-family", "Impact")
+        .style("fill", function(d, i) { return fill(i); })
+        .attr("text-anchor", "middle")
+        .attr("transform", function(d) {
+            return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
+
+        })
+        .text(function(d) { return d.text; });
+  }
+</script>
