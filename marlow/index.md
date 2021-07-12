@@ -1,3 +1,6 @@
+---
+title: Mike Maynard | Marlow Indexing Project
+---
 
 ![History of Marlow cover picture](marlow_cover.png)
 
