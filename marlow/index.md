@@ -1,17 +1,23 @@
 ---
 title: Mike Maynard | Marlow Indexing Project
 ---
+## Marlow book indexing project
+#### Implemented in Python
 
-![History of Marlow cover picture](marlow_cover.png)
+### - [Surnames Index](Surname.txt)
+### - [Places Index](Places.txt)
+### - [Streets/Roads Index](Streets.txt)
 
 Many years ago I was researching my family history and I determined that my 5th great grandfather spent some years living in a small town named Marlow in Cheshire County, New Hampshire. At that time he was the farthest back I had been able to trace my direct paternal line.  This man, Benajah Maynard, was a bit of a brick wall in my research.  I learned of a local history of Marlow compiled by Elgin Jones prior to his death in 1934 and reedited by the [Marlow Historical Society](http://www.marlownewhampshire.org/marlow-historical-society.php) in 2002. I quickly ordered a copy of the book and eagerly waited the delivery.  The book, while a treasure trove of information for my research, did not contain an index with which I could quickly lookup the relevant pages for persons of interest to me. I considered the work it would take to carefully read each page looking for potential family names as I went. I eventually decided to scan the pages and use OCR software to create my own personal electronic text version.  I accomplished the scan and after quite a bit of manual editing to correct for OCR errors I was able to do a text search for my Maynards.  To my delight I found a note in the text indicating that a Jabez/Jabes Maynard was Benajah's father.  Just the breakthrough I needed for my research.
 
 My personal text copy of the History of Marlow, New Hampshire sat unused for years.  As I continued in my professional career in software engineering and in my personal hobby as a family history researcher I often thought about how much data might be hidden from other researchers in these kind of histories.  These historical books and records were often written as a labor of love to a local community but without the resources to create a helpful index or any metadata that would assist would be investigators. Finally, one day as I determined to brush up on a programming language (Python),  I decided to create a surname index for the book that had unlocked my family line for me.  It would be just the right level of complexity to deepen by Python skills.  I was able to write a pair of scripts to find all the proper nouns in the text and to tokenize them such that it became apparent there were patterns that could be used to help identify people, surnames, and geographical places. The tokenizing script did a good job of identifying people and places but its results are not perfect. For instance, how could I determine if a proper noun including "Hill" is a person or a geographical feature? Some of each are found in the text.  The script got me about 90% of the way to having something to create my indexes from but those last bits would be very hard to accomplish programatically.  The last 10% was done by old fashioned editing, a process that made me further appreciate the work done by Python already. Below you will find links to the indexes I have created.
 
-## - [Surnames Index](Surname.txt)
-## - [Places Index](Places.txt)
-## - [Streets/Roads Index](Streets.txt)
+
 
 These indexes are no doubt far from perfect. The text itself is not perfect. What is accomplished above is something to fill that void so that other researchers can quickly gain access to the wealth of information in the book without resorting to scanning the book like I did.  If the History of Marlow, New Hampshire is something of interest to you I hope you will support the [Marlow Historical Society](http://www.marlownewhampshire.org/marlow-historical-society.php).  Copies of the book are available for sale from their website.  The indexes I have created are made available by me for free. Please be aware that the indexes are made from the 2002 version of the book. The names for the most part are as found in the text. There are references to Haselton, Hasleton and Hazelton names for example.
 
+![History of Marlow cover picture](marlow_cover.png)
+
+Created by:  Mike Maynard<BR>
+Last updated:  2021-07-12<BR>
 
