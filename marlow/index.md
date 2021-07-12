@@ -7,7 +7,7 @@ title: Mike Maynard | Marlow Indexing Project
 Create indexes for an unindexed book in order to help family history researchers and genealogists.
 
 ### The Data:
-<cite>History of Marlow, New Hampshire by Elgin Jones</cite>
+_History of Marlow, New Hampshire by Elgin Jones_
 
 
 ### The Indexes:
