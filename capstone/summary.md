@@ -21,7 +21,7 @@ title: Mike Maynard | Google Data Analysis Capstone Project - Analysis Summary
 
 
 
-Next... [Visuals and Findings](visuals/sell.html)
+#### Next... [Visuals and Findings](visuals/sell.html)
 
 
 

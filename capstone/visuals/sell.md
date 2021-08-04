@@ -9,7 +9,7 @@ title: Mike Maynard | Google Data Analysis Capstone Project - Sell
 
 **Note:** Acme operates in Oregon counties with population of at least 60,000. Counties with no ['Sell Score'](../metrics/sell_score.html) rating have no Acme Auto branch.
 
-#### Next ... [Where to Buy Cars](visuals/buy.html)
+#### Next ... [Where to Buy Cars](buy.html)
 
 ---
 [Capstone Project Home](/capstone/)
