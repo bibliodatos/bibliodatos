@@ -12,7 +12,7 @@ title: Mike Maynard | Google Data Analysis Capstone Project - Analysis Summary
 
 #### Cars
 
-* Online postings indicate there are cars with fixer-upper characteristics.
+* Online postings indicate there are available cars with fixer-upper characteristics.
   * Mileage below 110,000
   * Maximum of 10 years old
   * Below average price
