@@ -1,7 +1,7 @@
 ---
-title: Mike Maynard | Capstone Project Business Task
+title: Mike Maynard | Google Data Analysis Capstone Project - Business Task
 ---
-## Google Data Analytics Capstone:  Case Study - Acme Auto
+## Acme Auto Case study
 
 ### Business Task
 
