@@ -1,11 +1,11 @@
 ---
-title: Mike Maynard | Google DA Certificate Capstone Project
+title: Mike Maynard | Capstone Project
 ---
-## Google capstone case study
+## Google Data Analytics Capstone:  Case Study
 
 ### Table of Contents
 
-* Introduction
+* [Introduction](intro.md)
 * Business Task
 * Data Sources
 * Analysis Summary
