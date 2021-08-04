@@ -7,7 +7,7 @@ title: Mike Maynard | Google Data Analysis Capstone Project - Prices
 
 <IFRAME SRC="https://public.tableau.com/views/capstone_16278859884250/Pricebycondition?:language=en-US&:display_count=n&:origin=viz_share_link" WIDTH=800 HEIGHT=600></IFRAME>
 
-Price variation could indicate market inefficiency or more likely cars that need some repairs in order to be priced higher.
+Price variation could indicate market inefficiency but more likely there are cars that need repairs in order to be priced higher.
 
 #### Next ... [Mileage](mileage.html)
 
