@@ -9,7 +9,7 @@ Identify a test market in Oregon where Acme can profitably sell used cars. Speci
 
 * **Where** to sell cars
 * **Where** to buy used car inventory
-* **What** cars to buy
+* **Which** cars to buy
 
 
 
