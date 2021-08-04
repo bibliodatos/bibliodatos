@@ -7,7 +7,7 @@ title: Mike Maynard | Google Data Analysis Capstone Project - Prices
 
 <IFRAME SRC="https://public.tableau.com/views/capstone_16278859884250/Pricebycondition?:language=en-US&:display_count=n&:origin=viz_share_link" WIDTH=800 HEIGHT=600></IFRAME>
 
-<P> 
+<BR> 
 
 Increased price variation may indicate that there are cars that need repair in order to be priced higher.
 
