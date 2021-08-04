@@ -23,5 +23,5 @@ After a round of meetings, the stakeholders decide on a ... [Business Task](task
 [Capstone Project Home](./) | [Business Task](task.html)
 
 Created by **Mike Maynard**<BR>
-Project Implemented in **SQL, Tableau, Python, Google Sheets**<BR>
+Project Implemented in **SQL, Tableau, Python, Google Sheets, Markdown**<BR>
 Last updated:  **2021-08-03**

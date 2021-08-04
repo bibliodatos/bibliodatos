@@ -5,8 +5,8 @@ title: Mike Maynard | Capstone Project
 
 ### Table of Contents
 
-* [Introduction](intro.md)
-* Business Task
+* [Introduction](intro.html)
+* [Business Task](task.html)
 * Data Sources
 * Analysis Summary
 * Visuals and Key Findings
