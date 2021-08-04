@@ -15,7 +15,7 @@ title: Mike Maynard | Capstone Project Data Sources
 |                     | Transformed from wide to long format | [Kaggle](https://www.kaggle.com/bibliodatos/oregon-estimated-population-by-county/) |  |
 | Oregon DMV Registrations | Historical registration data by county | [State of Oregon](https://www.oregon.gov/odot/dmv/pages/news/vehicle_stats.aspx) | 2015-2019, Oregon |
 | Used car dealerships | Number of dealers in each county seat | [Google Maps](https://maps.google.com/) | August 2021 |
-| Annual Average Precipitation | Historical average rainfall/snowfall in each county | [bestplaces.net](https://www.bestplaces.net/climate/) | 2021 | 
+| Annual Average Precipitation | Historical average rainfall/snowfall in each county | [bestplaces.net](https://www.bestplaces.net/climate/) | 2021, Oregon |
 
 
 
