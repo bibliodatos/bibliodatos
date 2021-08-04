@@ -1,15 +1,20 @@
 ---
-title: Mike Maynard | Capstone Project
+title: Mike Maynard | Capstone Project Business Task
 ---
 ## Google Data Analytics Capstone:  Case Study
 
 ### Business Task
 
+Identify a test market in Oregon where Acme can profitably sell used cars. Specifically ...
 
-... [Data Sources](task.html)
+* **Where** to sell cars
+* **Where** to buy used car inventory
+* **What** cars to buy
 
 
 
+
+Next... [Data Sources](task.html)
 
 
 

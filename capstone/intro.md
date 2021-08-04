@@ -1,5 +1,5 @@
 ---
-title: Mike Maynard | Capstone Project
+title: Mike Maynard | Capstone Project Introduction
 ---
 ## Google Data Analytics Capstone:  Case Study
 

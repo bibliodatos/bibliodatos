@@ -17,5 +17,5 @@ title: Mike Maynard | Capstone Project
 
 
 Created by **Mike Maynard**<BR>
-Project Implemented in **SQL, Tableau, Python, Google Sheets**<BR>
+Project Implemented in **SQL, Tableau, Python, Google Sheets, Markdown**<BR>
 Last updated:  **2021-08-03**
