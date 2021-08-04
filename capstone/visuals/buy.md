@@ -2,17 +2,11 @@
 layout: plain
 title: Mike Maynard | Google Data Analysis Capstone Project - Buy Score
 ---
-## Acme Auto Case Study
+### Acme Auto Case Study
 
-### Where to buy?  The **'Buy Score'**
-
+The **'Buy Score'**!  Buy car inventory in Deschutes, Crook, Lane and Jefferson counties.   Next ... [Which Cars](visuals/cars.html)
 
 <IFRAME SRC="https://public.tableau.com/views/capstone_16278859884250/Buy_1?:language=en-US&:display_count=n&:origin=viz_share_link" WIDTH=800 HEIGHT=600></IFRAME>
-
-
-Next... [Which cars](visuals/cars.html)
-
-
 
 
 ---
