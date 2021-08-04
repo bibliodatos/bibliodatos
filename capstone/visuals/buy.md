@@ -1,4 +1,5 @@
 ---
+layout: plain
 title: Mike Maynard | Google Data Analysis Capstone Project - Buy Score
 ---
 ## Acme Auto Case Study
