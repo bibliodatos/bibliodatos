@@ -9,7 +9,7 @@ title: Mike Maynard | Google Data Analysis Capstone Project - Market Share
 
 By concentrating on cars from these manufacturers Acme can cover most of the market while limiting the scope of the repair work to that most familiar to their mechanics. Saving time and money.
 
-#### Next ... [Mileage](mileage.html)
+#### Next ... [Prices](price.html)
 
 ---
 [Capstone Project Home](/capstone/)
