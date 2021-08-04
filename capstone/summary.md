@@ -12,11 +12,11 @@ title: Mike Maynard | Google Data Analysis Capstone Project - Analysis Summary
 
 #### Cars
 
+* 2/3rds of market covered by top five manufacturing groups.
 * Online postings indicate there are available cars with fixer-upper characteristics.
   * Mileage below 110,000
   * Maximum of 10 years old
   * Below average price
-* 2/3rds of market covered by top five manufacturing groups.
 
 
 
