@@ -8,7 +8,7 @@ title: Mike Maynard | Capstone Project
 * [Introduction](intro.html)
 * [Business Task](task.html)
 * [Data Sources](data.html)
-* Analysis Summary
+* [Analysis Summary](summary.html)
 * Visuals and Key Findings
 * Additional Deliverables
 * Insights
