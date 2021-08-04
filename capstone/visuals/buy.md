@@ -9,7 +9,7 @@ title: Mike Maynard | Google Data Analysis Capstone Project - Buy
 
 ['Buy Score'](../metrics/buy_score.html) details.
 
-#### Next ... [Which Cars](visuals/cars.html)
+#### Next ... [Which Cars](cars.html)
 
 ---
 [Capstone Project Home](/capstone/)
