@@ -8,7 +8,7 @@ title: Mike Maynard | Google Data Analysis Capstone Project - average
 
 <IFRAME SRC="https://public.tableau.com/views/capstone_16278859884250/age_dash?:language=en-US&:display_count=n&:origin=viz_share_link&:showVizHome=no" WIDTH=800 HEIGHT=505></IFRAME>
 
-#### Next ... [Key Insights](insights.html)
+#### Next ... [Key Insights](../insights.html)
 
 ---
 [Capstone Project Home](/capstone/)
