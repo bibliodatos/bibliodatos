@@ -45,7 +45,7 @@ title: Mike Maynard | Google Data Analysis Capstone Project
 |	TILLAMOOK	|	89	|
 
 
-SQL saved as or_precip_table view in database:
+SQL query saved as or_precip_table view in database:
 
 ```sql
   SELECT
