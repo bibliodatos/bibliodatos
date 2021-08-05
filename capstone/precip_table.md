@@ -1,5 +1,5 @@
 ---
-title: Mike Maynard | Google Data Analysis Capstone Project - Analysis Summary
+title: Mike Maynard | Google Data Analysis Capstone Project
 ---
 ## [Acme Auto Case Study](/capstone/)
 
