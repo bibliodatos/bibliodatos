@@ -1,7 +1,7 @@
 ---
 title: Mike Maynard | Google Data Analysis Capstone Project - Prices
 ---
-## Acme Auto Case Study
+## [Acme Auto Case Study](/capstone/)
 
 * **Excellent** and **Like New** categories have higher average prices and also the most price variation.
 * **Fair** and **Good** categories have little price difference so repairing those cars is less lucrative.
