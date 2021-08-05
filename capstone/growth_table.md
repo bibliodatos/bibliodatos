@@ -3,6 +3,8 @@ title: Mike Maynard | Google Data Analysis Capstone Project - Analysis Summary
 ---
 ## [Acme Auto Case Study](/capstone/)
 
+#### Oregon County Car Registration Growth
+
 | County | Growth |
 | --- | ---- |
 |	DESCHUTES	|	17	|
