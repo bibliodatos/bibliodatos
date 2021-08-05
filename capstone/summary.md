@@ -12,7 +12,7 @@ title: Mike Maynard | Google Data Analysis Capstone Project - Analysis Summary
 
 #### Cars
 
-* 2/3rds of market covered by top five manufacturing groups.
+* [2/3rds of market](visuals/cars.html) covered by top five manufacturing groups.
 * Online postings indicate there are available cars with fixer-upper characteristics.
   * Below average price
   * Mileage below 110,000
