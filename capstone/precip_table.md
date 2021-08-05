@@ -50,7 +50,8 @@ SQL saved as or_precip_table view in database:
   '|', precip AS Precip,
   '|'
   FROM or_climate
-  ORDER BY precip ASC```
+  ORDER BY precip ASC
+```
 
 
 
