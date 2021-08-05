@@ -1,7 +1,7 @@
 ---
 title: Mike Maynard | Google Data Analysis Capstone Project - Data Sources
 ---
-## Acme Auto Case Study
+## [Acme Auto Case Study](/capstone/)
 
 ### Data Sources
 

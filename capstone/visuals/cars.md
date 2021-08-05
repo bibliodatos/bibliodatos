@@ -1,7 +1,7 @@
 ---
 title: Mike Maynard | Google Data Analysis Capstone Project - Market Share
 ---
-## Acme Auto Case Study
+## [Acme Auto Case Study](/capstone/)
 
 #### Ford, Chrysler, Chevrolet, Toyota, and Honda hold 2/3 of used car market according to online postings.
 

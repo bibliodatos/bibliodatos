@@ -1,7 +1,7 @@
 ---
 title: Mike Maynard | Google Data Analysis Capstone Project - Sell
 ---
-## Acme Auto Case Study
+## [Acme Auto Case Study](/capstone/)
 
 #### Deschutes county is the best used car selling market in Oregon by a substantial margin.
 

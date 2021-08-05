@@ -1,7 +1,7 @@
 ---
 title: Mike Maynard | Google Data Analysis Capstone Project - Buy
 ---
-## Acme Auto Case Study
+## [Acme Auto Case Study](/capstone/)
 
 ####  Inventory should be purchased in **Deschutes, Crook, Lane and Jefferson** counties.
 
