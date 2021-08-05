@@ -6,7 +6,7 @@ title: Mike Maynard | Google Data Analysis Capstone Project - Mileage
 * **Excellent** condition average mileage **110k**, **Like New** average mileage about **60k**.
 * Higher mileage F150's tend to be lower priced. Lower mileage, higher priced.
 
-<IFRAME SRC="https://public.tableau.com/views/capstone_16278859884250/miles_dash_1?:language=en-US&:display_count=n&:origin=viz_share_link&:showVizHome=no" WIDTH=800 HEIGHT=525></IFRAME>
+<IFRAME SRC="https://public.tableau.com/views/capstone_16278859884250/miles_dash_1?:language=en-US&:display_count=n&:origin=viz_share_link&:showVizHome=no" WIDTH=800 HEIGHT=500></IFRAME>
 
 #### Next ... [Age](age.html)
 
