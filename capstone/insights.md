@@ -6,7 +6,7 @@ title: Mike Maynard | Google Data Analysis Capstone Project - Key Insights
 ### Key Insights
 
 
-Not all local car markets in Oregon are created equal.  Deschutes and Lane county stand out. There is wide disparity between locations so a data driven approach to choosing a target test market is essential.
+Not all local car markets in Oregon are created equal.  Deschutes and Lane county stand out. There is wide disparity between locations. A  data driven approach to choosing a target test market is essential.
 
 * Factors:
   - Population and car registration growth - [2% to 17%](growth_table.html)
@@ -22,7 +22,7 @@ Acme's plan to flip cars in need of repair is viable. Moving up the condition sc
 
 
 ---
-[Acme Project Home / Table of Contents](./) 
+[Acme Project Home / Table of Contents](./)
 
 Created by **Mike Maynard**<BR>
 Project Implemented in **SQL, Tableau, Python, Google Sheets, Markdown**<BR>
