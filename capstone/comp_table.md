@@ -39,11 +39,11 @@ ORDER BY Dealers DESC
 
 Note: For the 'Buy Score' calculations we used `dealers / car registrations`
 
-Data source: [bestplaces.net](https://www.bestplaces.net/climate/)
+Data source: [Google Maps](https://maps.google.com/)
 
 
 ---
-[Capstone Project Home](./) | [Key Insights](insights.html)
+[Acme Project Home / Table of Contents](./) | [Key Insights](insights.html)
 
 Created by **Mike Maynard**<BR>
 Project Implemented in **SQL, Tableau, Python, Google Sheets, Markdown**<BR>
