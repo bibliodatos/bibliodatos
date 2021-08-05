@@ -9,37 +9,21 @@ title: Mike Maynard | Google Data Analysis Capstone Project - Key Insights
 Not all local car markets in Oregon are created equal.  Deschutes and Lane county stand out. There is wide disparity between locations so a data driven approach to choosing a target test market is essential.
 
 * Factors:
-  - Population and car registration growth.
+  - Population and car registration growth - [2% to 17%](growth_table.html)
   - Distance of inventory to market.
   - Availability of inventory for purchase.
-  - Climate affects vehicle condition and average annual rainfall - 12 to  89 inches
+  - Climate affects vehicle condition and average annual rainfall - [12 to  89 inches](precip_table.html)
 
 
 
-
-
-* Key [buying location metrics](metrics/buy.html) indicate **Deschutes** and nearby counties have necessary car inventory.
-
-#### Cars
-
-* [2/3rds of market](visuals/cars.html) covered by top five manufacturing groups.
-* Online postings indicate there are available cars with fixer-upper characteristics.
-  * Below average [price](visuals/price.html)
-  * Mileage below 110,000
-  * Maximum of 10 years old
-
-
-
-
-
-#### Next... [Visuals and Findings](visuals/sell.html)
+#### Next... [Additional Deliverables](deliverables.html)
 
 
 
 
 ---
-[Capstone Project Home](./) | [Visuals and Findings](visuals.html)
+[Capstone Project Home](./) | [Table of Contents](index.html)
 
 Created by **Mike Maynard**<BR>
 Project Implemented in **SQL, Tableau, Python, Google Sheets, Markdown**<BR>
-Last updated:  **2021-08-03**
+Last updated:  **2021-08-05**
