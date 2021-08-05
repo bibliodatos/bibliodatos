@@ -3,7 +3,7 @@ title: Mike Maynard | Google Data Analysis Capstone Project - Sell
 ---
 ## Acme Auto Case Study
 
-#### Deschutes county is the best used car selling market in Oregon by a wide margin.
+#### Deschutes county is the best used car selling market in Oregon by a substantial margin.
 
 <IFRAME SRC="https://public.tableau.com/views/capstone_16278859884250/Joy2?:language=en-US&:display_count=n&:origin=viz_share_link" WIDTH=800 HEIGHT=600></IFRAME>
 
