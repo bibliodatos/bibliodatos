@@ -1,6 +1,5 @@
 ---
 title: Mike Maynard | Google Data Analysis Capstone Project - Analysis Summary
-layout: plain
 ---
 ## [Acme Auto Case Study](/capstone/)
 
@@ -46,12 +45,12 @@ layout: plain
 
 SQL saved as or_precip_table view in database:
 
-  SELECT  
+  `SELECT  
   '|',  county AS County,
   '|', precip AS Precip,
   '|'
   FROM or_climate
-  ORDER BY precip ASC
+  ORDER BY precip ASC`
 
 
 
