@@ -44,8 +44,7 @@ title: Mike Maynard | Google Data Analysis Capstone Project
 
 
 
-
-SQL saved as or_precip_table view in database:
+SQL saved as *or_precip_table* view in database:
 
 ```sql
 SELECT
@@ -59,7 +58,7 @@ ORDER BY Posts DESC
 
 
 
-
+Data source: [Used Cars Dataset](https://www.kaggle.com/austinreese/craigslist-carstrucks-data)
 
 
 
