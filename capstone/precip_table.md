@@ -58,7 +58,7 @@ SQL saved as or_precip_table view in database:
 
 
 
-
+Data source: [bestplaces.net](https://www.bestplaces.net/climate/)
 
 
 

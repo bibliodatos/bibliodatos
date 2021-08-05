@@ -73,6 +73,7 @@ ORDER BY growth DESC
 
 
 
+Data Source: [Oregon DMV Registrations](https://www.oregon.gov/odot/dmv/pages/news/vehicle_stats.aspx)
 
 
 ---
