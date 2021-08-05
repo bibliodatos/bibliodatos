@@ -22,7 +22,7 @@ Acme's plan to flip cars in need of repair is viable. Moving up the condition sc
 
 
 ---
-[Capstone Project Home](./) | [Table of Contents](index.html)
+[Project Home / Table of Contents](./) 
 
 Created by **Mike Maynard**<BR>
 Project Implemented in **SQL, Tableau, Python, Google Sheets, Markdown**<BR>
