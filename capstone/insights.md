@@ -13,7 +13,7 @@ Not all local car markets in Oregon are created equal.  Deschutes and Lane count
   - Climate affects vehicle condition and average annual rainfall is widely different - [12 to  89 inches](precip_table.html)
   - Availability of inventory for purchase and distance to market - [0 to ~1700 posts](posting_table.html) per month
 
-
+Acme's plan to flip cars in need of repair is viable. Moving up the condition scale 1/2 of a grade, high 'Excellent' to 'Like New' for example, could see a gross increase of $4000-$5000. There is profit to be made by intelligently targeting cars with higher upside potential and managing costs.  
 
 #### Next... [Additional Deliverables](deliverables.html)
 
