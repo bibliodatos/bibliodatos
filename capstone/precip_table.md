@@ -63,7 +63,7 @@ Data source: [bestplaces.net](https://www.bestplaces.net/climate/)
 
 
 ---
-[Capstone Project Home](./) | [Key Insights](insights.html)
+[Acme Project Home / Table of Contents](./) | [Key Insights](insights.html)
 
 Created by **Mike Maynard**<BR>
 Project Implemented in **SQL, Tableau, Python, Google Sheets, Markdown**<BR>
