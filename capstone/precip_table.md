@@ -1,5 +1,6 @@
 ---
 title: Mike Maynard | Google Data Analysis Capstone Project - Analysis Summary
+layout: plain
 ---
 ## [Acme Auto Case Study](/capstone/)
 
@@ -43,7 +44,7 @@ title: Mike Maynard | Google Data Analysis Capstone Project - Analysis Summary
 |	TILLAMOOK	|	89	|
 
 
-SQL saved as or_precip_table view in database
+SQL saved as or_precip_table view in database:
 
   SELECT  
   '|',  county AS County,
