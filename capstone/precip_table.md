@@ -49,9 +49,8 @@ SQL saved as or_precip_table view in database:
 
 ```sql
   SELECT
-  '|', county AS County,
-  '|', precip AS Precip,
-  '|'
+    county AS County,
+    precip AS Precip
   FROM or_climate
   ORDER BY precip ASC
 ```
