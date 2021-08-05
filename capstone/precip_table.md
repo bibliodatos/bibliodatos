@@ -47,7 +47,7 @@ SQL saved as or_precip_table view in database:
 
 ```sql
   SELECT
-  '|',  county AS County,
+  '|', county AS County,
   '|', precip AS Precip,
   '|'
   FROM or_climate
@@ -62,7 +62,7 @@ SQL saved as or_precip_table view in database:
 
 
 ---
-[Capstone Project Home](./) | [Key Insights](insights.html) | [Table of Contents](index.html)
+[Capstone Project Home](./) | [Key Insights](insights.html)
 
 Created by **Mike Maynard**<BR>
 Project Implemented in **SQL, Tableau, Python, Google Sheets, Markdown**<BR>
