@@ -10,9 +10,8 @@ Not all local car markets in Oregon are created equal.  Deschutes and Lane count
 
 * Factors:
   - Population and car registration growth - [2% to 17%](growth_table.html)
-  - Distance of inventory to market.
-  - Availability of inventory for purchase.
-  - Climate affects vehicle condition and average annual rainfall - [12 to  89 inches](precip_table.html)
+  - Climate affects vehicle condition and average annual rainfall is widely different - [12 to  89 inches](precip_table.html)
+  - Availability of inventory for purchase and distance to market - [0 to ~1700 posts](posting_table.html) per month
 
 
 
