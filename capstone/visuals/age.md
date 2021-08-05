@@ -3,12 +3,12 @@ title: Mike Maynard | Google Data Analysis Capstone Project - average
 ---
 ## [Acme Auto Case Study](/capstone/)
 
-* **Excellent** condition average mileage **110k**, **Like New** average mileage about **60k**.
-* Higher mileage F150's tend to be lower priced. Lower mileage, higher priced.
+* **Excellent** condition average age about **10 1/2 years**, **Like New** average age about **6 1/2 years**.
+* Older F150's tend to be lower priced. Newer F150's -> higher priced.
 
 <IFRAME SRC="https://public.tableau.com/views/capstone_16278859884250/age_dash?:language=en-US&:display_count=n&:origin=viz_share_link&:showVizHome=no" WIDTH=800 HEIGHT=505></IFRAME>
 
-#### Next ... [foobar](foobar.html)
+#### Next ... [Key Insights](insights.html)
 
 ---
 [Capstone Project Home](/capstone/)
