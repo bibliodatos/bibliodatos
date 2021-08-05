@@ -45,7 +45,8 @@ title: Mike Maynard | Google Data Analysis Capstone Project - Analysis Summary
 
 SQL saved as or_precip_table view in database:
 
-```json
+```sql
+  SELECT
   '|',  county AS County,
   '|', precip AS Precip,
   '|'
