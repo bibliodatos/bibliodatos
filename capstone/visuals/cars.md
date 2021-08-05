@@ -7,7 +7,7 @@ title: Mike Maynard | Google Data Analysis Capstone Project - Market Share
 
 <IFRAME SRC="https://public.tableau.com/views/capstone_16278859884250/Manu_Pie?:language=en-US&:display_count=n&:origin=viz_share_link&:showVizHome=no" WIDTH=650 HEIGHT=500></IFRAME>
 
-By concentrating on cars from these manufacturers Acme can cover most of the market while limiting the scope of the repair work to that most familiar to their mechanics. Saving time and money.
+Acme can cover most of the market while limiting the scope of the repair work by concentrating on cars from these manufacturers. Narrowing the inventory will save time and money.
 
 #### Next ... [Prices](price.html)
 
@@ -16,4 +16,4 @@ By concentrating on cars from these manufacturers Acme can cover most of the mar
 
 Created by **Mike Maynard**<BR>
 Project Implemented in **SQL, Tableau, Python, Google Sheets, Markdown**<BR>
-Last updated:  **2021-08-04**
+Last updated:  **2021-08-05**

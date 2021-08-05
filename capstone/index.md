@@ -10,8 +10,8 @@ title: Mike Maynard | Google Data Analysis Capstone Project
 * [Data Sources](data.html)
 * [Analysis Summary](summary.html)
 * [Visuals and Key Findings](visuals/sell.html)
+* [Insights](insights.html)
 * Additional Deliverables
-* Insights
 * Appendix
 
 
