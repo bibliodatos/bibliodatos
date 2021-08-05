@@ -5,7 +5,7 @@ title: Mike Maynard | Google Data Analysis Capstone Project - Sell
 
 #### Deschutes county is the best used car selling market in Oregon by a substantial margin.
 
-<IFRAME SRC="https://public.tableau.com/views/capstone_16278859884250/Joy2?:language=en-US&:display_count=n&:origin=viz_share_link&:showVizHome=no" WIDTH=600 HEIGHT=400></IFRAME>
+<IFRAME SRC="https://public.tableau.com/views/capstone_16278859884250/Joy2?:language=en-US&:display_count=n&:origin=viz_share_link&:showVizHome=no" WIDTH=800 HEIGHT=500></IFRAME>
 
 **Note:** Acme operates in Oregon counties with population of at least 60,000. Counties with no <B>[Sell Score](../metrics/sell_score.html)</B> rating have no Acme Auto branch.
 
