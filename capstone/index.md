@@ -1,7 +1,7 @@
 ---
 title: Mike Maynard | Google Data Analysis Capstone Project
 ---
-## Google Data Analytics Capstone:  Case Study
+## Google Data Analytics Capstone:  Acme Case Study
 
 ### Table of Contents
 
