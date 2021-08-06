@@ -284,3 +284,7 @@ CREATE VIEW "posting_by_day_of_week" AS SELECT
       GROUP BY 1;
 
   ```
+
+---
+
+  [Acme Project Home / Table of Contents](/capstone/) | [Appendix](../appendix.html)
