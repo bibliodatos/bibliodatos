@@ -229,6 +229,7 @@ Northernmost latitude in Oregon = 46.291719, southernmost latitude in Oregon = 4
 
 #### We only want clean titles.  If value is NULL will include in analysis for now.
 
+```sql
     DELETE
     FROM or_vehicles
     WHERE title_status IS NOT NULL
@@ -238,6 +239,7 @@ Northernmost latitude in Oregon = 46.291719, southernmost latitude in Oregon = 4
 
     SELECT COUNT(*) AS Row_Count
     FROM or_vehicles
+```
 
     Row_Count
     ---------
@@ -245,22 +247,27 @@ Northernmost latitude in Oregon = 46.291719, southernmost latitude in Oregon = 4
 
 Do the same for the larger **vehicles** table
 
+
+```sql
     DELETE
     FROM vehicles
     WHERE title_status IS NOT NULL
     AND title_status IS NOT 'clean'
 
     -- Result: query executed successfully. Took 980ms, 13521 rows affected
+```
 
 ## Explore _type_ and clean up
 
+```sql
     SELECT DISTINCT(type), COUNT(*) AS Cnt
     FROM
 	  or_vehicles
-	WHERE
+	  WHERE
 	  type IS NOT NULL
     GROUP BY type
-	ORDER BY type
+	  ORDER BY type
+```
 
     type        Cnt
     ----------- ----
@@ -279,16 +286,18 @@ Do the same for the larger **vehicles** table
 
 Not interested in _bus_, _offroad_, or _other_ vehicle types.
 
+```sql
     DELETE
     FROM
 	  or_vehicles
-	WHERE
-	  type = 'other' OR type='bus' OR type='offroad'
+	  WHERE
+	  type = 'other' OR type='bus' OR type='offroad';
 
     -- Result: query executed successfully. Took 54ms, 203 rows affected
 
     SELECT COUNT(*) AS Row_Count
     FROM or_vehicles
+```
 
     Row_Count
     ---------
@@ -296,16 +305,19 @@ Not interested in _bus_, _offroad_, or _other_ vehicle types.
 
 Do the same for **vehicles** table
 
+```sql
     DELETE
     FROM
 	  vehicles
-	WHERE
-	  type = 'other' OR type='bus' OR type='offroad'
+	  WHERE
+	  type = 'other' OR type='bus' OR type='offroad';
 
     -- Result: query executed successfully. Took 1712ms, 23058 rows affected
+```
 
 ## Explore _odometer_ field and clean up.
 
+```sql
     DELETE
     FROM
       or_vehicles
@@ -313,9 +325,11 @@ Do the same for **vehicles** table
       odometer IS NULL OR odometer = 0
 
     -- Result: query executed successfully. Took 53ms, 527 rows affected
+```
 
 Mileage above 300,000 will be considered outliers
 
+```sql
     DELETE
     FROM  or_vehicles
     WHERE odometer > 3000000
@@ -324,6 +338,7 @@ Mileage above 300,000 will be considered outliers
 
     SELECT COUNT(*) AS Row_Count
     FROM or_vehicles
+```
 
     Row_Count
     ---------
@@ -331,16 +346,19 @@ Mileage above 300,000 will be considered outliers
 
 Do the same for **vehicles** table
 
+```sql
     DELETE
     FROM  vehicles
-    WHERE odometer > 3000000
+    WHERE odometer > 3000000;
 
     -- Result: query executed successfully. Took 3538ms, 174 rows affected
+```
 
 ## Clean up _year_ field
 
 Not interested in cars older than 1995
 
+```sql
     DELETE
     FROM  or_vehicles
     WHERE year < 1995
@@ -352,35 +370,44 @@ Not interested in cars older than 1995
     WHERE year < 1995
 
     -- Result: query executed successfully. Took 1249ms, 14335 rows affected
+```
 
 Look for NULLS in year field
 
+```sql
     SELECT COUNT(*) AS Row_Count
     FROM or_vehicles
     WHERE year IS NULL
+```
 
     Row_Count
     ---------
     0
 
+```sql
     SELECT COUNT(*) AS Row_Count
     FROM or_vehicles
+```
 
     Row_Count
     ---------
     14859
 
+```sql
     DELETE
     FROM vehicles
     WHERE year IS NULL
 
     -- Result: query executed successfully. Took 393ms, 1095 rows affected
+```
 
 ## Explore the condition field and clean it up
 
+```sql
     SELECT COUNT(*) AS Row_Count
     FROM or_vehicles
     WHERE condition IS NULL
+```
 
     Row_Count
     ---------
@@ -388,11 +415,13 @@ Look for NULLS in year field
 
 We have an issue. Over 2/3 of our listings don't have a condition value. Let's see if we can use mileage as a proxy for condition.
 
+```sql
     SELECT DISTINCT(condition), COUNT(*) AS Row_Count, ROUND(AVG(odometer)) AS Mileage
     FROM or_vehicles
     WHERE condition !=  'new' AND condition != 'salvage'
-	GROUP BY condition
-	ORDER BY Mileage ASC
+	  GROUP BY condition
+	  ORDER BY Mileage ASC
+```
 
     condition   Row_Count      Mileage
     ---------   ---------      -------
@@ -403,31 +432,32 @@ We have an issue. Over 2/3 of our listings don't have a condition value. Let's s
 
 Set condition based on 40,000 mile buckets
 
+```sql
     UPDATE   or_vehicles
     SET condition = 'new'
     WHERE condition IS NULL
-	AND odometer < 40000
+	  AND odometer < 40000
 
     -- Result: query executed successfully. Took 238ms, 2243 rows affected
 
     UPDATE   or_vehicles
     SET condition = 'like new'
     WHERE condition IS NULL
-	AND odometer < 80000
+	  AND odometer < 80000
 
     -- Result: query executed successfully. Took 270ms, 2653 rows affected
 
     UPDATE   or_vehicles
     SET condition = 'excellent'
     WHERE condition IS NULL
-	AND odometer < 120000
+	  AND odometer < 120000
 
     -- Result: query executed successfully. Took 241ms, 2577 rows affected
 
     UPDATE   or_vehicles
     SET condition = 'good'
     WHERE condition IS NULL
-	AND odometer < 160000
+	  AND odometer < 160000
 
     -- Result: query executed successfully. Took 113ms, 1740 rows affected
 
@@ -437,34 +467,11 @@ Set condition based on 40,000 mile buckets
 
     -- Result: query executed successfully. Took 163ms, 1174 rows affected
 
-Do the same for **vehicles** table
-
-    UPDATE   vehicles
-    SET condition = 'new'
-    WHERE condition IS NULL
-	AND odometer < 40000
-
-    UPDATE   vehicles
-    SET condition = 'like new'
-    WHERE condition IS NULL
-	AND odometer < 80000
-
-    UPDATE   vehicles
-    SET condition = 'excellent'
-    WHERE condition IS NULL
-	AND odometer < 120000
-
-    UPDATE   vehicles
-    SET condition = 'good'
-    WHERE condition IS NULL
-	AND odometer < 160000
-
-    UPDATE   vehicles
-    SET condition = 'fair'
-    WHERE condition IS NULL
+```
 
 ## Explore and clean the manufacturer field using clean_manufacturer field
 
+```sql
     UPDATE or_vehicles
     SET clean_manufacturer = manufacturer
 
@@ -535,9 +542,11 @@ Do the same for **vehicles** table
     UPDATE or_vehicles
     SET clean_manufacturer = 'ram'
     WHERE clean_model = '2500' AND clean_manufacturer = 'dodge'
+```
 
 ## Clean up some NULL values in _model_ field
 
+```sql
     UPDATE   or_vehicles
     SET  model = '2500 laramie'
     WHERE model is NULL
@@ -607,19 +616,19 @@ Do the same for **vehicles** table
 
     UPDATE or_vehicles
     SET clean_model = REPLACE(clean_model, 'mega cab', 'megacab')
-	WHERE clean_model LIKE '%mega cab%'
+	  WHERE clean_model LIKE '%mega cab%'
 
     UPDATE or_vehicles
     SET clean_model = REPLACE(clean_model, 'cummins diesel ', 'cummins')
-	WHERE clean_model LIKE '%cummins diesel%'
+	  WHERE clean_model LIKE '%cummins diesel%'
 
     UPDATE or_vehicles
     SET clean_model = REPLACE(clean_model, '-', ' ')
-	WHERE clean_model LIKE '%-%'
+	  WHERE clean_model LIKE '%-%'
 
     UPDATE or_vehicles
     SET clean_model = REPLACE(clean_model, '*', ' ')
-	WHERE clean_model LIKE '%*%'
+	  WHERE clean_model LIKE '%*%'
 
     UPDATE or_vehicles
     SET clean_model = REPLACE(clean_model, 'v6', '')
@@ -653,19 +662,19 @@ Do the same for **vehicles** table
 
     UPDATE or_vehicles
     SET clean_model = REPLACE(clean_model, '4 door', '4dr')
-	WHERE clean_model LIKE '%4 door%'
+	  WHERE clean_model LIKE '%4 door%'
 
     UPDATE or_vehicles
     SET clean_model = REPLACE(clean_model, '2 door', '2dr')
-	WHERE clean_model LIKE '%2 door%'
+	  WHERE clean_model LIKE '%2 door%'
 
     UPDATE or_vehicles
     SET clean_model = REPLACE(clean_model, '5 door', '5dr')
-	WHERE clean_model LIKE '%5 door%'
+	  WHERE clean_model LIKE '%5 door%'
 
     UPDATE or_vehicles
     SET clean_model = REPLACE(clean_model, 'vehicle', '')
-	WHERE clean_model LIKE '%vehicle%'
+	  WHERE clean_model LIKE '%vehicle%'
 
     UPDATE or_vehicles
     SET clean_model = REPLACE(clean_model, 'pickup', '')
@@ -736,17 +745,20 @@ Do the same for **vehicles** table
 
 
 
-SELECT substr(clean_model, 1, pos-1) AS first_name,
+    SELECT substr(clean_model, 1, pos-1) AS first_name,
        substr(clean_model, pos+1) AS last_name
-FROM
-  (SELECT *,
+    FROM
+    (SELECT *,
           instr(clean_model,' ') AS pos
-   FROM or_vehicles)
-ORDER BY first_name,
+    FROM or_vehicles)
+    ORDER BY first_name,
          last_name;
+
+```
 
 #### Just delete the stragglers with no _model_ value
 
+```sql
     DELETE
     FROM or_vehicles
     WHERE model IS NULL
@@ -757,10 +769,11 @@ ORDER BY first_name,
     UPDATE or_vehicles
     SET clean_model = model
 
-#### Explore and clean _drive_ field
+```
 
 #### Explore and clean _vin_ field
 
+```sql
     -- we have a lot of NULL vins but we need a unique ID for each car
     -- so we can get the latest posting for each individual car later.
     -- Populate clean_vin with id if vin is NULL
@@ -780,24 +793,29 @@ ORDER BY first_name,
     SELECT COUNT(*) AS Cnt
     FROM or_vehicles
     WHERE clean_vin IS NULL
+```
 
     Cnt
     ---
     0
 
+```sql
     SELECT COUNT(DISTINCT(clean_vin)) AS Cnt
     FROM or_vehicles
+```
 
     Cnt
     ----
     9367
 
+```sql
     -- See which cars in Oregon have been posted the most times
     SELECT clean_vin, COUNT(*) AS Cnt
     FROM or_vehicles
     GROUP BY clean_vin
     ORDER BY Cnt DESC
     LIMIT 10
+```
 
     clean_vin              Cnt
     -----------------      ---
@@ -812,12 +830,14 @@ ORDER BY first_name,
     3C6UR5DL3JG242522	18
     1GCHK23133F150618	18
 
+```sql
     -- Lets look at the most posted car
     SELECT manufacturer, clean_model, price, posting_date
     FROM or_vehicles
     WHERE clean_vin = '3C6UR4CL1HG615370'
     ORDER BY posting_date DESC
     LIMIT 10
+```
 
     ram	2500 6 speed diesel	0	2021-05-03T16:52:52-0700
     ram	2500 6 speed diesel	0	2021-05-03T16:50:46-0700
@@ -832,6 +852,7 @@ ORDER BY first_name,
 
 #### Price clean up
 
+```sql
     DELETE
     FROM or_vehicles
     WHERE price = 0 OR price IS NULL
@@ -861,17 +882,21 @@ ORDER BY first_name,
     WHERE price < 1000
 
     -- Result: query executed successfully. Took 962ms, 11119 rows affected
+```
 
-
+```sql
     SELECT COUNT(*) AS Row_Count
     FROM or_vehicles
+```
 
     Row_Count
     ---------
     10544
 
+```sql
     SELECT COUNT(*) AS Row_Count
     FROM vehicles
+```
 
     Row_Count
     ---------
@@ -879,9 +904,11 @@ ORDER BY first_name,
 
 ## clean_county.py has now populated _county_ field based on pull from US census API for lat, long
 
+```sql
     SELECT COUNT(*) AS Row_Count
     FROM or_vehicles
     WHERE county IS NULL
+```
 
     Row_Count
     ---------
@@ -889,11 +916,14 @@ ORDER BY first_name,
 
 ## Some counties have cross postings in other regions that don't make sense for the county's location.
 #### Example:  HOOD RIVER county
+
+```sql
     SELECT County, Region, COUNT(*) AS Cnt
     FROM or_vehicles
     WHERE county = 'HOOD RIVER'
     GROUP BY county, region
     ORDER BY County ASC, Cnt DESC
+```
 
     county          region          Cnt
     ------          ------          ---
@@ -902,6 +932,8 @@ ORDER BY first_name,
     HOOD RIVER	east oregon	1
 
 ## Delete cross postings in non-contigous regions for that county
+
+```sql
     DELETE FROM or_vehicles WHERE  county = 'CANYON' -- Idaho
     DELETE FROM or_vehicles WHERE  county = 'FRANKLIN'  -- Washington
     DELETE FROM or_vehicles WHERE  county = 'SNOHOMISH' -- Washington
@@ -933,9 +965,12 @@ ORDER BY first_name,
     DELETE FROM or_vehicles WHERE  county = 'POLK'  AND 	region = 'portland'
     DELETE FROM or_vehicles WHERE  county = 'UMATILLA'   AND 	region = 'portland'
     DELETE FROM or_vehicles WHERE  county = 'WASHINGTON'   AND 	region != 'portland'
+```
 
+```sql
     SELECT COUNT(*) AS Row_Count
     FROM or_vehicles
+```
 
     Row_Count
     ---------
@@ -943,8 +978,10 @@ ORDER BY first_name,
 
 ## How many unique vehicles to we have now after cleaning up region cross postings?
 
+```sql
     SELECT COUNT(DISTINCT(clean_vin)) AS Row_Count
     FROM or_vehicles
+```
 
     Row_Count
     ---------
