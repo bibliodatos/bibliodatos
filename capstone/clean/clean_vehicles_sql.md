@@ -48,19 +48,23 @@ Data Source: [Used Cars Dataset - Kaggle](https://www.kaggle.com/austinreese/cra
 
 #### Original number of rows in _vehicles_ table
 
-
+```sql
     SELECT COUNT(*) AS Row_Count
     FROM vehicles
-
+```
 
     Row_Count
     ---------
     426880
 
 #### Original number of rows in _or_vehicles_ table
+
+```sql
     SELECT COUNT(*) AS OR_Count
     FROM vehicles
     WHERE state = 'or'
+```
+
 
     OR_Count
     --------
