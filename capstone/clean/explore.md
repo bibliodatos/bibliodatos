@@ -7,13 +7,14 @@ title: Data exploration
 
 ### Mean vehicle price by condition in Oregon
 #### excluding 'new' condition
-| Mean | Condition |
-| --- | ------ |
-|	25792.0	|	like new	|
-|	16795.0	|	excellent	|
-|	11511.0	|	good	|
-|	10774.0	|	fair	|
-|	2700.0	|	salvage	|
+
+  | Mean | Condition |
+  | --- | ------ |
+  |	25792.0	|	like new	|
+  |	16795.0	|	excellent	|
+  |	11511.0	|	good	|
+  |	10774.0	|	fair	|
+  |	2700.0	|	salvage	|
 
 #### SQL Query
 
@@ -32,20 +33,20 @@ ___
 
 ### Online postings by manufacturer
 
-| Manufacturer | Num |
-| --- | ------ |
-|	ford	|	1507	|
-|	toyota	|	819	|
-|	chevrolet	|	708	|
-|	honda	|	430	|
-|	ram	|	336	|
-|	subaru	|	332	|
-|	nissan	|	307	|
-|	jeep	|	283	|
-|	hyundai	|	262	|
-|	gmc	|	231	|
-|	dodge	|	228	|
-|	bmw	|	220	|
+  | Manufacturer | Num |
+  | --- | ------ |
+  |	ford	|	1507	|
+  |	toyota	|	819	|
+  |	chevrolet	|	708	|
+  |	honda	|	430	|
+  |	ram	|	336	|
+  |	subaru	|	332	|
+  |	nissan	|	307	|
+  |	jeep	|	283	|
+  |	hyundai	|	262	|
+  |	gmc	|	231	|
+  |	dodge	|	228	|
+  |	bmw	|	220	|
 
 #### SQL Query saved as or_manufacturer_postings in database
 
@@ -67,9 +68,10 @@ ___
 ___
 
 ### Number of vehicle postings matching our target conditions
-| Count |
-| ----- |
-| 1133  |
+
+  | Count |
+  | ----- |
+  | 1133  |
 
 #### SQL Query
 
