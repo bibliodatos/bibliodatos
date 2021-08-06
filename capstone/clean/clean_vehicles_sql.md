@@ -72,16 +72,20 @@ Data Source: [Used Cars Dataset - Kaggle](https://www.kaggle.com/austinreese/cra
 
 #### Most often we are going to be querying for Oregon data so create an Oregon only table
 
+```sql
     CREATE TABLE or_vehicles AS
     SELECT *
     FROM vehicles
     WHERE state = 'or'
+```
 
 #### Is _county_ field is populated?
 
+```sql
     SELECT COUNT(*) as County_Not_Null
     FROM or_vehicles
     WHERE county is not NULL
+```
 
 Answer:  all NULL
 
@@ -91,12 +95,14 @@ Answer:  all NULL
 
 #### No county so do we have latitude and longitude?
 
+```sql
     SELECT COUNT(*) as Lat_Long_Not_Null
     FROM
       or_vehicles
     WHERE
       lat is not NULL
       AND long IS NOT NULL
+```
 
 Answer:  Yes we have latitude and longitude
 
@@ -104,19 +110,24 @@ Answer:  Yes we have latitude and longitude
     17044
 
 #### Sanity check latitude and clean up any non-Oregon data
+
 Northernmost latitude in Oregon = 46.291719, southernmost latitude in Oregon = 42
 
+```sql
     -- Too far North
     DELETE
-    FROM   or_vehicles
+    FROM  or_vehicles
     WHERE lat > 46.291719
+```
 
     -- Result: 512 rows returned in 2875ms
 
+```sql
     -- Too far South
     DELETE
     FROM   or_vehicles
     WHERE lat < 42.0
+```
 
     - Result: query executed successfully. Took 83ms, 486 rows affected
 
