@@ -9,6 +9,7 @@ title: Mike Maynard | Google Data Analysis Capstone Project - Appendix
   * [More exploring in SQL](clean/explore.html)
 
 * Data Wrangling
+  * Populate county field using FCC API and a [python script](https://github.com/bibliodatos/bibliodatos.github.io/blob/main/capstone/python/clean_county.py)
   
 
 
