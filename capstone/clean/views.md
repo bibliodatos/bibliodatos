@@ -285,6 +285,6 @@ CREATE VIEW "posting_by_day_of_week" AS SELECT
 
   ```
 
----
+<HR>
 
   [Acme Project Home / Table of Contents](/capstone/) | [Appendix](../appendix.html)
