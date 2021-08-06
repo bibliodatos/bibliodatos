@@ -4,8 +4,8 @@ title: Mike Maynard | Google Data Analysis Capstone Project - Appendix
 
 ### Appendix
 
-* Data Cleaning
-  * [SQL](clean/clean_vehicles_sql.html)
+* Data Cleaning and Exploration
+  * [Cleaning with SQL](clean/clean_vehicles_sql.html)
 
 
 
