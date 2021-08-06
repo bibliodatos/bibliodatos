@@ -129,33 +129,35 @@ Northernmost latitude in Oregon = 46.291719, southernmost latitude in Oregon = 4
     WHERE lat < 42.0
 ```
 
-    - Result: query executed successfully. Took 83ms, 486 rows affected
+    -- Result: query executed successfully. Took 83ms, 486 rows affected
 
 #### Clean up some NULL lat longs based on region value
 
+```sql
     UPDATE   or_vehicles
     SET lat = 44.0581728,
 	  long = -121.3153096,
 	  county = 'DESCHUTES'
     WHERE lat IS NULL
-      AND region = 'bend'
+      AND region = 'bend';
 
     UPDATE   or_vehicles
     SET lat = 45.5051064,
 	  long = -122.6750261,
 	  county = 'MULTNOMAH'
     WHERE lat  IS NULL
-      AND region = 'portland'
+      AND region = 'portland';
 
     UPDATE   or_vehicles
     SET lat = 44.0520691,
 	  long = -123.0867536,
 	  county = 'LANE'
     WHERE lat  IS NULL
-      AND region = 'eugene'
+      AND region = 'eugene';
 
     SELECT COUNT(*) AS Row_Count
     FROM or_vehicles
+```
 
     Row_Count
     ---------
@@ -163,6 +165,7 @@ Northernmost latitude in Oregon = 46.291719, southernmost latitude in Oregon = 4
 
 #### Delete the few rows left that are without lat or long
 
+```sql
     DELETE
     FROM or_vehicles
     WHERE lat IS NULL
@@ -172,6 +175,7 @@ Northernmost latitude in Oregon = 46.291719, southernmost latitude in Oregon = 4
 
     SELECT COUNT(*) AS Row_Count
     FROM or_vehicles
+```
 
     Row_Count
     ---------
