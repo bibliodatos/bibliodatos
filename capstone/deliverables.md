@@ -7,11 +7,17 @@ title: Mike Maynard | Google Data Analysis Capstone Project - Additional Deliver
 
 Some areas of interest that are outside of the scope of this analysis were discovered.
 
-* Temporal analysis would be helpful to see what kind of seasonal trends exist.  We only had sales posting data for one month and Acme has not historical data in this market space. Search engine analytics might offer insights.  We did analyze the posting data we had looking for day of the week patterns which you can see on this [visualization](visuals/day.html).
+* Temporal analysis would be helpful to see what kind of seasonal trends exist.  We only had sales posting data for one month and Acme has no historical data in this market space. Search engine analytics might offer insights.  We did analyze the available posting data for day of the week patterns which you can see on this [visualization](visuals/day.html).
 
 * A breakeven analysis to determine the number of units that would need to be sold to profit from the new venture is essential but outside our scope.
 
-* No attempt was made develop a means to predict or evaluate the price of an individual vehicle. By looking at the Ford F150 visualization we can see that there are some vehicles that are both below average price and below average mileage.  
+* No attempt was made develop a means to predict or evaluate the price of an individual vehicle. By looking at the [Ford F150 scatterplot](cars.html) we can see that there are some vehicles that are both below average price and below average mileage. A similar analysis of other common models would be a start.  Additional factors beyond mileage and age should be analyzed.
+
+* An analysis to develop search patterns to identify fixer-upper cars should be done to help Acme sales staff find potential inventory for purchase.
+
+* The review of local competition in this report was not in-depth.  We looked at raw number of dealers in a city compared to the number of local vehicles. Undoubtedly not all dealers have similar sized business. A competitive analysis should be done.
+
+* Highway driving vs. city driving was investigated. We looked to see if we could find localities that may have above average condition cars based on easier driving patterns.  We found a data source for highway miles travelled by county.  We found that some counties have many travelled miles but those miles are very likely from transient traffic and aren't indicative of locally owned cars. 
 
 
 
