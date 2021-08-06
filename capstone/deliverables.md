@@ -11,7 +11,7 @@ Some areas of interest that are outside of the scope of this analysis were disco
 
 * Highway driving vs. city driving was investigated. We looked to see if we could find localities that may have above average condition cars based on easier driving patterns.  We found a data source for highway miles travelled by county.  We found that some counties have many travelled miles but those miles are very likely from transient traffic and aren't indicative of locally owned cars. [Highway miles table](highway_table.html)
 
-* No attempt was made develop a means to predict or evaluate the price of an individual vehicle. By looking at the [Ford F150 scatterplot](cars.html) we can see that there are some vehicles that are both below average price and below average mileage. A similar analysis of other common models would be a start.  Additional factors beyond mileage and age should be analyzed.
+* No attempt was made to predict or evaluate the price of an individual vehicle. By looking at the [Ford F150 scatterplot](visuals/cars.html) we can see that there are some vehicles that are both below average price and below average mileage. A similar analysis of other common models would be a start.  Additional factors beyond mileage and age should be analyzed.
 
 * A breakeven analysis to determine the number of units that would need to be sold to profit from the new venture is essential but outside our scope.
 
