@@ -4,7 +4,7 @@ title: Data exploration
 
 ## Database views
 
-### Used for data exploration, creating more complex queries, and creating csv's for import into Tableau
+### Used for data exploration, creating more complex queries, and csv's for import into Tableau
 
 
 ```sql
