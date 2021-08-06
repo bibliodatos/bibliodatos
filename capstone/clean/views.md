@@ -2,7 +2,9 @@
 title: Data exploration
 ---
 
-## Database views used for data exploration and creating more complex queries
+## Database views
+
+### Used for data exploration, creating more complex queries, and creating csv's for import into Tableau
 
 
 ```sql
@@ -282,6 +284,3 @@ CREATE VIEW "posting_by_day_of_week" AS SELECT
       GROUP BY 1;
 
   ```
-
-
-      
