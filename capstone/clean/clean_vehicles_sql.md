@@ -183,22 +183,26 @@ Northernmost latitude in Oregon = 46.291719, southernmost latitude in Oregon = 4
 
 #### Westernmost point in Oregon is -124.565233, Easternmost point is -116.463761
 
+```sql
     SELECT COUNT(*)
     FROM or_vehicles
-	WHERE long < -124.565233
+	  WHERE long < -124.565233;
+```
 
     COUNT(*)
     --------
     0
 
+```sql
     DELETE
     FROM or_vehicles
-	WHERE long > -116.463761
+	  WHERE long > -116.463761;
 
     -- Result: query executed successfully. Took 45ms, 122 rows affected
 
     SELECT COUNT(*) AS Row_Count
-    FROM or_vehicles
+    FROM or_vehicles;
+```
 
     Row_Count
     ---------
@@ -206,10 +210,12 @@ Northernmost latitude in Oregon = 46.291719, southernmost latitude in Oregon = 4
 
 #### Explore _title_status_ field and clean up
 
+```sql
     SELECT DISTINCT(title_status) AS Status, COUNT(*) AS Cnt
     FROM or_vehicles
     GROUP BY title_status
     ORDER BY title_status
+```
 
     title_status Cnt
     ------------ ---
@@ -221,7 +227,7 @@ Northernmost latitude in Oregon = 46.291719, southernmost latitude in Oregon = 4
     rebuilt	     216
     salvage	     116
 
-We only want clean titles.  If value is NULL will include in analysis for now.
+#### We only want clean titles.  If value is NULL will include in analysis for now.
 
     DELETE
     FROM or_vehicles
