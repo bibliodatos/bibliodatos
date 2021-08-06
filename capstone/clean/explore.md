@@ -6,7 +6,8 @@ title: Data exploration
 
 
 ### Mean vehicle price by condition in Oregon
-#### excluding 'new' condition
+
+#### Excluding 'new' condition
 
   | Mean | Condition |
   | --- | ------ |
@@ -65,7 +66,6 @@ ___
     LIMIT 12
 ```
 
-___
 
 ### Number of vehicle postings matching our target conditions
 
