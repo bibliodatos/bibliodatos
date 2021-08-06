@@ -12,10 +12,10 @@ title: Mike Maynard | Google Data Analysis Capstone Project
 * [Visuals and Key Findings](visuals/sell.html)
 * [Insights](insights.html)
 * [Additional Deliverables](deliverables.html)
-* Appendix
+* [Appendix](appendix.html)
 
 
 
 Created by **Mike Maynard**<BR>
 Project Implemented in **SQL, Tableau, Python, Google Sheets, Markdown**<BR>
-Last updated:  **2021-08-03**
+Last updated:  **2021-08-05**
