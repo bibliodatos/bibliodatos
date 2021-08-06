@@ -39,10 +39,11 @@ Data Source: [Used Cars Dataset - Kaggle](https://www.kaggle.com/austinreese/cra
 
 #### Save copy of table before any data cleaning
 
-
+```sql
     CREATE TABLE vehicles_orig AS
     SELECT *
     FROM vehicles
+```
 
 
 #### Original number of rows in _vehicles_ table
