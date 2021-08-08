@@ -27,8 +27,8 @@ title: Mike Maynard | Google Data Analysis Capstone Project - Data Sources
 
 
 ---
-[Acme Project Home / Table of Contents](./)| [Analysis Summary](summary.html)
+[Acme Project Home](./) | [Analysis Summary](summary.html)
 
 Created by **Mike Maynard**<BR>
 Project Implemented in **SQL, Tableau, Python, Google Sheets, Markdown**<BR>
-Last updated:  **2021-08-03**
+Last updated:  **2021-08-08**
