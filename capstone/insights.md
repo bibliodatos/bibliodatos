@@ -14,7 +14,7 @@ Not all local car markets in Oregon are created equal.  **Deschutes** and Lane c
   - Availability of **inventory** for purchase and distance to market - [0 to ~1700 posts](posting_table.html) per month
   - [Competition](comp_table.html)
 
-Acme's plan to flip cars in need of repair is viable. Moving up the condition scale 1/2 of a grade, for example high 'Excellent' to 'Like New', could see a gross margin of $4000-$5000 per car. There is profit to be made by intelligently targeting cars with higher upside potential and managing costs.  
+Acme's plan to flip cars in need of repair is viable. Moving up the condition scale 1/2 of a grade, from high 'Excellent' to 'Like New', could see a gross margin of $4000-$5000 per car. There is profit to be made by intelligently targeting cars with higher upside potential and managing costs.  
 
 #### Next... [Additional Deliverables](deliverables.html)
 
@@ -22,7 +22,7 @@ Acme's plan to flip cars in need of repair is viable. Moving up the condition sc
 
 
 ---
-[Acme Project Home](./) 
+[Acme Project Home](./)
 
 Created by **Mike Maynard**<BR>
 Project Implemented in **SQL, Tableau, Python, Google Sheets, Markdown**<BR>
