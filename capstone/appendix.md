@@ -1,7 +1,7 @@
 ---
 title: Mike Maynard | Google Data Analysis Capstone Project - Appendix
 ---
-## [Acme Auto Case Study](/capstone/)
+## [Acme Auto Case Study](./)
 
 ### Appendix
 
@@ -42,4 +42,4 @@ title: Mike Maynard | Google Data Analysis Capstone Project - Appendix
 
 Created by **Mike Maynard**<BR>
 Project Implemented in **SQL, Tableau, Python, Google Sheets, Markdown**<BR>
-Last updated:  **2021-08-05**
+Last updated:  **2021-08-08**
