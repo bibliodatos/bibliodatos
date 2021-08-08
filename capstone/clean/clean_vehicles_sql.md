@@ -1,7 +1,7 @@
 ---
 title: Mike Maynard | Goggle Data Analysis Capstone - Clean vehicles sql table
 ---
-## [Acme Auto Case Study](/capstone/)
+## [Acme Auto Case Study](../)
 
 ### SQL Data Cleaning and Exploration
 
@@ -992,7 +992,7 @@ Set condition based on 40,000 mile buckets
     5696
 
 ---
-[Acme Project Home](./) | [Appendix](../appendix.html)
+[Acme Project Home](../) | [Appendix](../appendix.html)
 
 Created by **Mike Maynard**<BR>
 Project Implemented in **SQL, Tableau, Python, Google Sheets, Markdown**<BR>
