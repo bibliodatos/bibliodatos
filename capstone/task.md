@@ -20,7 +20,7 @@ Identify a test market in Oregon where Acme can profitably sell used cars. Speci
 
 
 ---
-[Capstone Project Home](./) | [Data Sources](data.html)
+[Acme Project Home](./) | [Data Sources](data.html)
 
 Created by **Mike Maynard**<BR>
 Project Implemented in **SQL, Tableau, Python, Google Sheets, Markdown**<BR>
