@@ -7,8 +7,8 @@ title: Mike Maynard | Google Data Analysis Capstone Project - Analysis Summary
 
 #### Deschutes County
 
-* Key [selling location metrics](metrics/sell.html) show **Deschutes** has a significant advantage over other possible markets.
-* Key [buying location metrics](metrics/buy.html) indicate **Deschutes** and nearby counties have necessary car inventory.
+* Key [selling location metrics](visuals/sell.html) show **Deschutes** has a significant advantage over other possible markets.
+* Key [buying location metrics](visuals/buy.html) indicate **Deschutes** and nearby counties have necessary car inventory.
 
 #### Cars
 
