@@ -85,6 +85,7 @@ SQL Query
         (condition = 'like new' AND odometer < 60000 AND year > 2014)
 ```
 
+---
 [Acme Project Home](../) | [Appendix](../appendix.html)
 
 Created by **Mike Maynard**<BR>
