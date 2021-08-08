@@ -6,9 +6,9 @@ title: Data exploration
 ### Some additional data exploration
 
 
-### Mean vehicle price by condition in Oregon
+#### Mean vehicle price by condition in Oregon
 
-#### Excluding 'new' condition
+Excluding 'new' condition
 
   | Mean | Condition |
   | --- | ------ |
@@ -18,7 +18,7 @@ title: Data exploration
   |	10774.0	|	fair	|
   |	2700.0	|	salvage	|
 
-#### SQL Query
+SQL Query
 
 ```sql
     SELECT  
@@ -33,7 +33,7 @@ title: Data exploration
 ___
 
 
-### Online postings by manufacturer
+#### Online postings by manufacturer
 
   | Manufacturer | Num |
   | --- | ------ |
@@ -50,7 +50,7 @@ ___
   |	dodge	|	228	|
   |	bmw	|	220	|
 
-#### SQL Query saved as or_manufacturer_postings in database
+SQL Query saved as or_manufacturer_postings in database
 
 ```sql
      SELECT Manufacturer, Num
@@ -68,13 +68,13 @@ ___
 ```
 
 
-### Number of vehicle postings matching our target conditions
+#### Number of vehicle postings matching our target conditions
 
   | Count |
   | ----- |
   | 1133  |
 
-#### SQL Query
+SQL Query
 
 ```sql
     SELECT COUNT(*) AS Count
