@@ -27,7 +27,6 @@ title: Mike Maynard | Google Data Analysis Capstone Project - Appendix
 #### Composite Metrics
 
   * [Sell Score](sell_score.html)
-
   * [Buy Score](buy_score.html)
 
 
