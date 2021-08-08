@@ -13,7 +13,7 @@ Data Source: [Used Cars Dataset](https://www.kaggle.com/austinreese/craigslist-c
 #### Next ... [Age](age.html)
 
 ---
-[Capstone Project Home](../) | [Summary](../summary.html)
+[Acme Project Home](../) | [Summary](../summary.html)
 
 Created by **Mike Maynard**<BR>
 Project Implemented in **SQL, Tableau, Python, Google Sheets, Markdown**<BR>
