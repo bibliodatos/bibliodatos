@@ -11,7 +11,7 @@ Ford, Chrysler, Chevrolet, Toyota, and Honda hold **2/3 of used car market** acc
 
 Acme can cover most of the market while limiting the scope of the repair work by concentrating on cars from these manufacturers. Narrowing the inventory will save time and money.
 
-Additional data on [Top 11 manufacturers visual](manu.html)
+Additional visual on [Top 11 manufacturers](manu.html)
 
 #### Next ... [Prices](price.html)
 
