@@ -13,7 +13,7 @@ Components:
 
   * **Posting Score**: online car postings count / (passenger registrations / 10000). Higher the better
 
-  * **Distance Score**: distance in km of county seat to the average location of a online car posting in Oregon. Smaller the better.
+  * **Distance Score**: distance in km of county seat to the average location of online car postings in Oregon. Smaller the better.
 
   * **Climate Score**: annual average precipitation for the county.  Smaller the better
 
