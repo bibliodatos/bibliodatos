@@ -1,5 +1,5 @@
 ---
-title: Clean vehicles sql table
+title: Mike Maynard | Goggle Data Analysis Capstone - Clean vehicles sql table
 ---
 ## [Acme Auto Case Study](/capstone/)
 
