@@ -24,6 +24,11 @@ title: Mike Maynard | Google Data Analysis Capstone Project - Appendix
     * Oregon highway miles traveled data from wide to long format [Google Sheets](https://docs.google.com/spreadsheets/d/1pFLCwuB4Z9NW3xQgaUSOYZ0aU9WuPrMchXL30pibA9A/edit?usp=sharing)
   * [Database Views](clean/views.html)
 
+#### Composite Metrics
+
+  * [Sell Score](buy_score.md)
+
+  * [Buy Score](sell_score.md)
 
 
 
