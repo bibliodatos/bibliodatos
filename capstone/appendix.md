@@ -1,6 +1,7 @@
 ---
 title: Mike Maynard | Google Data Analysis Capstone Project - Appendix
 ---
+## [Acme Auto Case Study](/capstone/)
 
 ### Appendix
 

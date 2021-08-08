@@ -1,10 +1,11 @@
 ---
 title: Data exploration
 ---
+## [Acme Auto Case Study](/capstone/)
 
-## Database views
+### Database views
 
-### Used for data exploration, creating more complex queries, and csv's for import into Tableau
+#### Used for data exploration, creating more complex queries, and csv's for import into Tableau
 
 
 ```sql
