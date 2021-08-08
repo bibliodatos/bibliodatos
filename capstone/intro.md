@@ -11,7 +11,7 @@ Barbara Baxter, Acme President, is concerned about a sustained dip in repair bus
 
 Acme needs to find a market niche that will allow them to compete with existing used car dealers. Debra Dillon, Acme's Chief Mechanic, believes that there is profit to be made finding used vehicles that need mechanical repairs. Acme can repair vehicles at lower cost than competitors because of their expertise.  Ms. Dillon's idea is not backed by firsthand data because Acme has no history in this market.  The stakeholders task newly hired Junior Data Analyst, Mike Maynard, with performing an analysis.
 
-After a round of meetings, the stakeholders decide on a ... <BIG> **[Business Task](task.html)** </BIG>
+After a round of meetings, the stakeholders decide on a ... <BIG><B>[Business Task](task.html)</B> </BIG>
 
 
 
