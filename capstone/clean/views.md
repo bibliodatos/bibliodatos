@@ -1,7 +1,7 @@
 ---
-title: Data exploration
+title: Mike Maynard | Google Data Analysis Capstone - database views
 ---
-## [Acme Auto Case Study](/capstone/)
+## [Acme Auto Case Study](../)
 
 ### Database views
 
@@ -286,6 +286,10 @@ CREATE VIEW "posting_by_day_of_week" AS SELECT
 
 ```
 
-<HR>
 
-  [Acme Project Home / Table of Contents](/capstone/) 
+---
+[Acme Project Home](../)  | [Appendix](../appendix.html)
+
+Created by **Mike Maynard**<BR>
+Project Implemented in **SQL, Tableau, Python, Google Sheets, Markdown**<BR>
+Last updated:  **2021-08-08**
