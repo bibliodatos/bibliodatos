@@ -3,6 +3,8 @@ title: Clean vehicles sql table
 ---
 ## [Acme Auto Case Study](/capstone/)
 
+### SQL Data Cleaning and Exploration
+
 #### Import CSV into SQL database
 Data Source: [Used Cars Dataset - Kaggle](https://www.kaggle.com/austinreese/craigslist-carstrucks-data)
 
@@ -988,3 +990,10 @@ Set condition based on 40,000 mile buckets
     Row_Count
     ---------
     5696
+
+---
+[Acme Project Home](./) | [Appendix](../appendix.html)
+
+Created by **Mike Maynard**<BR>
+Project Implemented in **SQL, Tableau, Python, Google Sheets, Markdown**<BR>
+Last updated:  **2021-08-08**
