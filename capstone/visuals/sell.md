@@ -12,7 +12,7 @@ title: Mike Maynard | Google Data Analysis Capstone Project - Sell
 #### Next ... [Where to Buy Cars](buy.html)
 
 ---
-[Capstone Project Home](../)
+[Acme Project Home](../) | [Buy](buy.html)
 
 Created by **Mike Maynard**<BR>
 Project Implemented in **SQL, Tableau, Python, Google Sheets, Markdown**<BR>
