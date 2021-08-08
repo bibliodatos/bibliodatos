@@ -8,9 +8,9 @@ title: Mike Maynard | Google Data Analysis Capstone Project - Prices
 
 <IFRAME SRC="https://public.tableau.com/views/capstone_16278859884250/Pricebycondition?:language=en-US&:display_count=n&:origin=viz_share_link&:showVizHome=no&:embed=true" WIDTH=600 HEIGHT=600></IFRAME>
 
-<BR>
-
 Increased price variation may indicate that there are cars that need repair. Acme should target vehicles characteristic of those categories with higher prices and wider price ranges.
+
+Data Source: [Used Cars Dataset](https://www.kaggle.com/austinreese/craigslist-carstrucks-data)
 
 #### Next ... [Mileage](mileage.html)
 
