@@ -1,5 +1,5 @@
 ---
-title: Data exploration
+title: Sell Score
 ---
 ## [Acme Auto Case Study](/capstone/)
 
@@ -21,9 +21,9 @@ Components:
 
 See [Data Sources](data.html) for underlying datasets.  
 
-<HR>
+</HR>
 
-Acme Project Home / Table of Contents](/capstone/) | [Appendix](../appendix.html)
+Acme Project Home & Table of Contents](/capstone/) | [Appendix](../appendix.html)
 
 Created by **Mike Maynard**<BR>
 Project Implemented in **SQL, Tableau, Python, Google Sheets, Markdown**<BR>
