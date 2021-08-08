@@ -1,5 +1,5 @@
 ---
-title: Data exploration
+title: Mike Maynard | Google Data Analytics Capstone - Data exploration
 ---
 ## [Acme Auto Case Study](/capstone/)
 
@@ -84,3 +84,9 @@ SQL Query
         OR
         (condition = 'like new' AND odometer < 60000 AND year > 2014)
 ```
+
+[Acme Project Home](../) | [Appendix](../appendix.html)
+
+Created by **Mike Maynard**<BR>
+Project Implemented in **SQL, Tableau, Python, Google Sheets, Markdown**<BR>
+Last updated:  **2021-08-08**
