@@ -38,7 +38,7 @@ title: Mike Maynard | Google Data Analysis Capstone Project - Appendix
 
 
 ---
-[Acme Project Home / Table of Contents](./)
+[Acme Project Home](./)
 
 Created by **Mike Maynard**<BR>
 Project Implemented in **SQL, Tableau, Python, Google Sheets, Markdown**<BR>
