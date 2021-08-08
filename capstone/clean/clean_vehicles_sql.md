@@ -1,6 +1,8 @@
 ---
 title: Clean vehicles sql table
 ---
+## [Acme Auto Case Study](/capstone/)
+
 #### Import CSV into SQL database
 Data Source: [Used Cars Dataset - Kaggle](https://www.kaggle.com/austinreese/craigslist-carstrucks-data)
 

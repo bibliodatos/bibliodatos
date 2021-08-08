@@ -1,8 +1,9 @@
 ---
 title: Data exploration
 ---
+## [Acme Auto Case Study](/capstone/)
 
-## Some additional data exploration
+### Some additional data exploration
 
 
 ### Mean vehicle price by condition in Oregon
