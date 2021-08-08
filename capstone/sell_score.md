@@ -21,9 +21,8 @@ Components:
 
 See [Data Sources](data.html) for underlying datasets.  
 
-</HR>
 
-Acme Project Home & Table of Contents](/capstone/) | [Appendix](../appendix.html)
+[Acme Project Home & Table of Contents](/capstone/) | [Appendix](../appendix.html)
 
 Created by **Mike Maynard**<BR>
 Project Implemented in **SQL, Tableau, Python, Google Sheets, Markdown**<BR>
