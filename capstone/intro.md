@@ -20,7 +20,7 @@ After a round of meetings, the stakeholders decide on a ... <BIG> **[Business Ta
 
 
 ---
-[Capstone Project Home](./) | [Business Task](task.html)
+[Acme Project Home](./) | [Business Task](task.html)
 
 Created by **Mike Maynard**<BR>
 Project Implemented in **SQL, Tableau, Python, Google Sheets, Markdown**<BR>

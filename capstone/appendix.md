@@ -29,6 +29,9 @@ title: Mike Maynard | Google Data Analysis Capstone Project - Appendix
   * [Sell Score](sell_score.html)
   * [Buy Score](buy_score.html)
 
+#### Additional visuals
+
+  * [Top 12 car manufacturer](visuals/manu.html)
 
 
 
