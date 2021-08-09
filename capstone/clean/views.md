@@ -22,7 +22,7 @@ CREATE VIEW "or_buy" AS SELECT
 	b.score AS distance_score,
 	c.climate_score,
 	p.score AS posting_score,
-	ROUND(((b.score  * 5 ) + (c.climate_score * 2)  + (p.score * 3)) / 9.0)  AS weighted_score
+	ROUND(((b.score  * 5 ) + (c.climate_score * 2)  + (p.score * 3)) / 10.0)  AS weighted_score
 FROM or_bend_distance_score AS b
 JOIN or_climate_score AS c
 	ON b.county = c.county
