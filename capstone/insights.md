@@ -6,7 +6,7 @@ title: Mike Maynard | Google Data Analysis Capstone Project - Key Insights
 ### Key Insights
 
 
-Not all local car markets in Oregon are created equal.  **Deschutes** and Lane counties stand out. There is wide disparity between locations. A data driven approach to choosing a target test market is essential.
+There is wide disparity in car markets in Oregon.  **Deschutes** and Lane counties stand out. A data driven approach to choosing a target test market is essential.
 
 * Factors:
   - Population and car registration **growth** - [2% to 17%](growth_table.html)
