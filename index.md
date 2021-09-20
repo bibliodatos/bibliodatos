@@ -12,3 +12,6 @@ title: Mike Maynard
 | Certificates and Achievements |
 | ----------------------------- |
 | [Google Data Analytics Certificate](https://www.credly.com/badges/fc64989a-b236-4389-9d6d-41e56e872d85/linked_in) |
+| [HackerRank SQL gold badge](https://www.hackerrank.com/mayste?badge=sql&hr_r=1) |
+| [University of Michigan Python 3 Certificate](https://www.coursera.org/account/accomplishments/specialization/certificate/RVVJT2SFKRUG) |
+| [Idaho Certified Public Accountant - INACTIVE] |
