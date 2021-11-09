@@ -6,9 +6,9 @@ title: Mike Maynard | School Data Integration and Authentication Case Study - En
 ### End-user Authentication Findings
 
 
-| Product | Product Passwords |
-| ------- | ----------------- |
-| [Blackboard WCM](https://www.blackboard.com/engage-your-community/websites-branding/web-community-manager) |
+| Product | Product Passwords | LDAP | SAML | Specific 3rd parties |
+| ------- | ----------------- | ---- | ---- | -------------------- |
+| [Blackboard WCM](https://www.blackboard.com/engage-your-community/websites-branding/web-community-manager) | [Yes](https://help.blackboard.com/Web_Community_Manager/Administrator/Data_Integration_And_Automation/LDAP) | [Yes](https://help.blackboard.com/Web_Community_Manager/Administrator/Data_Integration_And_Automation/SAML) | Google SSO(https://help.blackboard.com/Web_Community_Manager/Administrator/Users_and_Groups/Authentication/Google_Single_Sign-in) |
 | [Blackboard Mass Communication](https://www.blackboard.com/engage-your-community/communications/mass-notifications-for-k-12) |
 | [Clever Admin](https://support.clever.com/hc/s/articles/360026950471) |
 | [Freshservice](https://freshservice.com/) |
