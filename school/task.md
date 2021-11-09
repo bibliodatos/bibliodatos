@@ -9,9 +9,9 @@ The study focuses on account creation, end-user authentication, classroom roster
 
 | Product | Vendor | Description |
 | ------- | ------ | ----------- |
-| Blackboard Web Community Manager(https://www.blackboard.com/engage-your-community/websites-branding/web-community-manager) | Blackboard(https://www.blackboard.com/) | School focused content management system |
-| | | | 
-| [Google Apps/Workspace for Education](https://edu.google.com/why-google/k-12-solutions/) | [Google](https://google.com) | Suite of learning tools including communication apps and classroom management |
+| Blackboard Web Community Manager (https://www.blackboard.com/engage-your-community/websites-branding/web-community-manager) | Blackboard (https://www.blackboard.com/) | School focused content management system |
+| | | |
+| [Google Apps/Workspace for Education] (https://edu.google.com/why-google/k-12-solutions/) | [Google] (https://google.com) | Suite of learning tools including communication apps and classroom management |
 
 
 
