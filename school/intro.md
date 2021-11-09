@@ -14,9 +14,6 @@ In this study we will research five products offered by four vendors that are co
 
 
 
-
-
-
 ---
 [School Project Home](./) | [Task](task.html)
 
