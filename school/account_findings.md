@@ -6,8 +6,13 @@ title: Mike Maynard | School Data Integration and Authentication Case Study - Ac
 ### Account Creation Findings
 
 
-
-
+| Product | Manual * | Manual CSV | Automated CSV | Intra-vendor Integration | Third Party Integration | API |
+| ------- | ------ | ----------- | ------- | ------ | ----------- | ------- |
+| | | | | | | |
+| | | | | | | |
+| | | | | | | |
+| | | | | | | |
+| | | | | | | |
 
 
 #### Next... [End-user Authentication Findings](authentication_findings.html)
