@@ -6,11 +6,11 @@ title: Mike Maynard | School Data Integration and Authentication Case Study - Ac
 ### Account Creation Findings
 
 
-| Product | Manual * | Manual CSV | Automated CSV | Intra-vendor Integration | Other Integrations | API |
+| Product | Manual * | Manual CSV | Automated CSV | Intra-vendor Integration | Other Provisioning Integrations | API |
 | ------- | ------ | ----------- | ------- | ------ | ----------- | ------- |
-| [Blackboard WCM](https://www.blackboard.com/engage-your-community/websites-branding/web-community-manager) | [Yes](https://help.blackboard.com/Web_Community_Manager/Administrator/Users_and_Groups/Users/Edit_Users) | [Yes](https://help.blackboard.com/Web_Community_Manager/Administrator/Users_and_Groups/Users#import) | [Connector](https://help.blackboard.com/Web_Community_Manager/Administrator/Data_Integration_And_Automation/Universal_Connector) | Community Engagement? |  | |
-| [Blackboard Mass Communication](https://www.blackboard.com/engage-your-community/communications/mass-notifications-for-k-12)| [Communications HQ](https://help.blackboard.com/Community_Engagement/Administrator/Community_Settings/Account_Management)  | [Yes](https://help.blackboard.com/Community_Engagement/Administrator/Community_Settings/Account_Management/Manage_User_Accounts/Upload_Accounts_from_Files) | [DataLink](https://help.blackboard.com/Community_Engagement/Administrator/Data_Imports) | WCM? | | |
-| [Clever Admin](https://support.clever.com/hc/s/topic/0TO1P000000V0vVWAS/clever-admin) | Yes | | | | | |
+| [Blackboard WCM](https://www.blackboard.com/engage-your-community/websites-branding/web-community-manager) | [Yes - Users Workspace](https://help.blackboard.com/Web_Community_Manager/Administrator/Users_and_Groups/Users/Edit_Users) | [Yes](https://help.blackboard.com/Web_Community_Manager/Administrator/Users_and_Groups/Users#import) | [Connector](https://help.blackboard.com/Web_Community_Manager/Administrator/Data_Integration_And_Automation/Universal_Connector) | Community Engagement? |  | |
+| [Blackboard Mass Communication](https://www.blackboard.com/engage-your-community/communications/mass-notifications-for-k-12)| [Yes - Communications HQ](https://help.blackboard.com/Community_Engagement/Administrator/Community_Settings/Account_Management)  | [Yes](https://help.blackboard.com/Community_Engagement/Administrator/Community_Settings/Account_Management/Manage_User_Accounts/Upload_Accounts_from_Files) | [DataLink](https://help.blackboard.com/Community_Engagement/Administrator/Data_Imports) | WCM? | | |
+| [Clever Admin](https://support.clever.com/hc/s/articles/360026950471) | [Yes - dashboard->Support Tools](https://support.clever.com/hc/s/articles/360026950471?language=en_US) | [Yes](https://support.clever.com/hc/s/articles/229253547?language=en_US) | [Yes](https://support.clever.com/hc/s/articles/229253547?language=en_US) | NA | [SIS Auto-sync](https://support.clever.com/hc/s/articles/202042973) | |
 | [Freshservice](https://freshservice.com/) | Yes | | | | | |
 | [Google Apps/Workspace](https://edu.google.com/why-google/k-12-solutions/)| Yes | | | | | |
 
