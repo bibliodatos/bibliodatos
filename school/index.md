@@ -10,7 +10,7 @@ title: Mike Maynard | School Data Integration Study
 * [Summary](summary.html)
 * Findings
   * [Account Creation](account_findings.html)
-  * [End-user Authentication](authentication_finding.html)
+  * [End-user Authentication](authentication_findings.html)
   * [Class Rostering](rostering_findings.html)
   * [Data Integration](integration_findings.html)
 
