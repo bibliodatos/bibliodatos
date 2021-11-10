@@ -27,7 +27,7 @@ Glossary:
 * API - [Application programming interface](https://en.wikipedia.org/wiki/API)
 
 
-##### Notes
+#### Notes
 Blackboard has a published [API](https://developer.blackboard.com/portal/displayApi) but appears to be specific to their 'Learn' products.
 
 
