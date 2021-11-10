@@ -3,13 +3,13 @@ title: Mike Maynard | School Data Integration and Authentication Case Study - Cl
 ---
 ## [School Data Integration and Authentication Case Study](./)
 
-### Classroom Findings
+### Classroom Rostering Findings
 
 
 | Product | Manual | Manual CSV | Automated CSV | Intra-vendor Integration | Other Integrations | API |
 | ------- | ------ | ----------- | ------- | ------ | ----------- | ------- |
 | [Blackboard WCM](https://www.blackboard.com/engage-your-community/websites-branding/web-community-manager) | [Yes - Groups](https://help.blackboard.com/Web_Community_Manager/Administrator/Users_and_Groups/Groups) | [Yes](https://help.blackboard.com/Web_Community_Manager/Administrator/Users_and_Groups/Groups) | [Universal Connector](https://help.blackboard.com/Web_Community_Manager/Administrator/Data_Integration_And_Automation/Universal_Connector) | Community Engagement |  | |
-| [Blackboard Mass Communication](https://www.blackboard.com/engage-your-community/communications/mass-notifications-for-k-12)| [Yes - Communications HQ](https://help.blackboard.com/Community_Engagement/Administrator/Community_Settings/Account_Management)  | [Yes](https://help.blackboard.com/Community_Engagement/Administrator/Community_Settings/Account_Management/Manage_User_Accounts/Upload_Accounts_from_Files) | [DataLink](https://help.blackboard.com/Community_Engagement/Administrator/Data_Imports) | WCM | | |
+| [Blackboard Mass Communication](https://www.blackboard.com/engage-your-community/communications/mass-notifications-for-k-12)| | | [DataLink](https://help.blackboard.com/Community_Engagement/Administrator/Data_Imports) &#124;<BR> [Data Dictionary](https://dlmaster.parlant.com/specs/) | WCM | | |
 | [Clever Admin](https://support.clever.com/hc/s/articles/360026950471) | [Yes - Support Tools](https://support.clever.com/hc/s/articles/360026950471?language=en_US) | [Yes](https://support.clever.com/hc/s/articles/229253547?language=en_US) | [Yes](https://support.clever.com/hc/s/articles/229253547?language=en_US) | | [SIS Auto-sync](https://support.clever.com/hc/s/articles/202042973) | [Yes](https://dev.clever.com/) |
 | [Google Apps/Workspace](https://edu.google.com/why-google/k-12-solutions/)| [Yes - Admin Console](https://support.google.com/a/answer/9970788?hl=en) | [Yes](https://support.google.com/a/answer/9970788?hl=en) | [Integromat SFTP](https://www.integromat.com/en/integrations/google-g-suite/sftp) | | [Clever IDM](https://clever.com/appstore/clever-idm) &#124;<BR> [Google Cloud Directory Sync - LDAP](https://support.google.com/a/answer/106368?hl=en) &#124;<BR>[Google SDS - EOL'd 2022](https://support.google.com/a/topic/6039552) | [Directory API](https://developers.google.com/admin-sdk/directory/v1/guides/manage-users) |
 
