@@ -21,6 +21,8 @@ Glossary:
 * Automatic CSV - Transferring a file programmatically typically with the [SFTP](https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol) protocol.
 * Intra-vendor Integration - Integrates data between two or more products from the same vendor.
 * Other Provisioning Integrations - Third party partners that facilitate user creation integrations. Also can be through other data stores maintained by the school such as an LDAP server, SIS system or HR system.
+* API - [Application programming interface](https://en.wikipedia.org/wiki/API)
+
 
 
 
