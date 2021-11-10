@@ -16,5 +16,4 @@ title: Mike Maynard | School Data Integration Study
 
 Created by **Mike Maynard**<BR>
 Project Implemented in **Google Docs and Sheets, Markdown**<BR>
-[Data Sources](data.html)<BR>
 Last updated:  **2021-11-09**
