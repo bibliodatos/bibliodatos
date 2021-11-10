@@ -5,15 +5,15 @@ title: Mike Maynard | School Data Integration and Authentication Case Study - In
 
 ### Other Data Integrations
 
-#### Parent and Guardians
+#### Parents and Guardians
 
 We have not discussed parent and guardian contact data. It could be made available to these systems by the same methods shown under the [account creation findings](account_findings.html).
 
 #### Example application level integrations
 
 * Freshservice integrates with [Google Calendar and Contacts](https://freshservice.com/integration/google-suite)
-* Freshservice integrates with many other applications such [Zoom, Dropbox, Jira, Slack](https://freshservice.com/integration), etc
-* Clever partners with many over [600 application developers](https://clever.com/partners)
+* Freshservice integrates with many other applications such [Zoom, Dropbox, Jira, Slack](https://freshservice.com/integration), etc.
+* Clever partners with over [600 application developers](https://clever.com/partners)
 * Clever integrates with [Canvas](https://support.clever.com/hc/s/articles/360045827552)
 
 #### [Single Sources of Truth](https://en.wikipedia.org/wiki/Single_source_of_truth)
@@ -21,7 +21,7 @@ We have not discussed parent and guardian contact data. It could be made availab
 * Students - Student Information System (SIS)
 * Class sections - Student Information System (SIS)
 * Staff - HR system
-* Identity - Whatever system is chosen as the primary SSO solution
+* Identity - The system that is chosen as the primary SSO solution
 
 ---
 [School Project Home](./)
