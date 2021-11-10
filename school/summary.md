@@ -5,7 +5,7 @@ title: Mike Maynard | School Data Integration and Authentication Case Study - Su
 
 ### Analysis Summary
 
-####[Account Creation](account_findings.html)
+#### [Account Creation](account_findings.html)
 
 All products provide methods to create accounts through manual and automated CSV uploads. All vendors except Blackboard provide an API for account creation.
 
