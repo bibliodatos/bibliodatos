@@ -6,6 +6,7 @@ title: Mike Maynard
 
 | Projects   | Visuals   |
 | ------------ | ------------ |
+| [School data integration and authentication](school/)  |              |
 | [Acme Auto](capstone/)  - Google Data Analysis Certificate Capstone | [Oregon map in Tableau](capstone/visuals/buy.html) |
 | [Surname index project](marlow/) for Marlow, New Hampshire |  [Top 50 Marlow surnames word cloud](marlow/cloud.html) |
 
