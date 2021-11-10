@@ -15,7 +15,7 @@ There is a wide variety of authentication methods supported in these systems. Al
 
 #### [Classroom Rostering](rostering_findings.html)
 
-[Clever](https://clever.com/) has partnered with [Edupoint](https://edupoint.com/) to provide a syncing service from [Synergy SIS](https://edupoint.com/Products/Student-Information-Management). Clever and Google have an [automated rostering application](https://clever.com/about/news/clever-and-google-partner-to-streamline-access-to-google-classroom) for Google Classroom.  Blackboard provides their own integration services for a fee and do not seem to have any kind of partnership with Clever.
+[Clever](https://clever.com/) has partnered with [Edupoint](https://edupoint.com/) to provide a syncing service from [Synergy SIS](https://edupoint.com/Products/Student-Information-Management). Clever and Google have an [automated rostering application](https://clever.com/about/news/clever-and-google-partner-to-streamline-access-to-google-classroom) for Google Classroom.  Blackboard provides their own integration services for a fee and does not seem to have any kind of partnership with Clever.
 
 
 
