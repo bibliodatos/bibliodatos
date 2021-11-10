@@ -13,8 +13,8 @@ title: Mike Maynard | School Data Integration Study
   * [End-user Authentication](authentication_finding.html)
   * [Class Rostering](rostering_findings.html)
   * [Data Integration](integration_findings.html)
-* [Data Sources](data.html)
 
 Created by **Mike Maynard**<BR>
 Project Implemented in **Google Sheets, Markdown**<BR>
+[Data Sources](data.html)<BR>
 Last updated:  **2021-11-09**
