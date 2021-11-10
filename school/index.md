@@ -7,7 +7,7 @@ title: Mike Maynard | School Data Integration Study
 
 * [Introduction](intro.html)
 * [Task](task.html)
-* [Analysis Summary](summary.html)
+* [Summary](summary.html)
 * [Findings](account_findings.html)
 * [Data Sources](data.html)
 * [Additional Deliverables](deliverables.html)
