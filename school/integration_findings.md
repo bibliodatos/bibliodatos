@@ -3,7 +3,7 @@ title: Mike Maynard | School Data Integration and Authentication Case Study - In
 ---
 ## [School Data Integration and Authentication Case Study](./)
 
-### Other Data Integration
+### Other Data Integrations
 
 #### Parent and Guardians
 
