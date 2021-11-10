@@ -8,13 +8,12 @@ title: Mike Maynard | School Data Integration Study
 * [Introduction](intro.html)
 * [Task](task.html)
 * [Summary](summary.html)
-* [Findings]
+* Findings
   * [Account Creation](account_findings.html)
+  * [End-user Authentication](authentication_finding.html)
+  * [Class Rostering](rostering_findings.html)
+  * [Data Integration](integration_findings.html)
 * [Data Sources](data.html)
-* [Additional Deliverables](deliverables.html)
-* [Appendix](appendix.html)
-
-
 
 Created by **Mike Maynard**<BR>
 Project Implemented in **Google Sheets, Markdown**<BR>
