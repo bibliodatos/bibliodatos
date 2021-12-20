@@ -2,7 +2,7 @@
 permalink: index.html
 title: Mike Maynard
 ---
-## Welcome to my data projects portfolio.
+## Welcome to my data projects portfolio.  
 
 | Projects   | Visuals   |
 | ------------ | ------------ |
