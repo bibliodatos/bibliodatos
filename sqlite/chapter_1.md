@@ -16,8 +16,7 @@ title: SQLite Cookbook Chapter 1
 | 1.7 [Concatenating column values](https://github.com/bibliodatos/SQLite_Cookbook/blob/main/chapter_1/1.7.sql)| [Yes](concat.html) |
 | 1.8 [Conditional logic in a SELECT](https://github.com/bibliodatos/SQLite_Cookbook/blob/main/chapter_1/1.8.sql)| No |
 | 1.9 [Limiting the number of rows in a SELECT](https://github.com/bibliodatos/SQLite_Cookbook/blob/main/chapter_1/1.9.sql)| No |
-| 1.10 [](https://github.com/bibliodatos/SQLite_Cookbook/blob/main/chapter_1/1.10.sql)| |
-| 1.11 [](https://github.com/bibliodatos/SQLite_Cookbook/blob/main/chapter_1/1.11.sql)| |
-| 1.12 [](https://github.com/bibliodatos/SQLite_Cookbook/blob/main/chapter_1/1.12.sql)| |
-| 1.13 [](https://github.com/bibliodatos/SQLite_Cookbook/blob/main/chapter_1/1.13.sql)| |
-| 1.14 [](https://github.com/bibliodatos/SQLite_Cookbook/blob/main/chapter_1/1.14.sql)| |
+| 1.10 [Returning n random records from a table](https://github.com/bibliodatos/SQLite_Cookbook/blob/main/chapter_1/1.10.sql)| [Yes](random.html) |
+| 1.11 [Finding NULL values](https://github.com/bibliodatos/SQLite_Cookbook/blob/main/chapter_1/1.11.sql)| No |
+| 1.12 [Transforming NULLs into real values](https://github.com/bibliodatos/SQLite_Cookbook/blob/main/chapter_1/1.12.sql)| No |
+| 1.13 [Searching for patterns](https://github.com/bibliodatos/SQLite_Cookbook/blob/main/chapter_1/1.13.sql)| No |
