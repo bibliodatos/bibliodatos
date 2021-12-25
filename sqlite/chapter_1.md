@@ -7,8 +7,8 @@ title: SQLite Cookbook Chapter 1
 
 | Query        | Differences from MySQL? | Run Query (sqlime.org) |
 | ------------ | ------------ |
-| 1.1 [Retrieving all rows and columns from a table](https://github.com/bibliodatos/SQLite_Cookbook/blob/main/chapter_1/1.1.sql) | No | [run 1.1](https://sqlime.org/#gist:7bfea25a4a440b81accc0c31c6ad3477)  |
-| 1.2 [Retrieving a subset of rows from a table](https://github.com/bibliodatos/SQLite_Cookbook/blob/main/chapter_1/1.2.sql) | No | [run 1.2](https://sqlime.org/#gist:7bfea25a4a440b81accc0c31c6ad3477)| 
+| 1.1 [Retrieving all rows and columns from a table](https://github.com/bibliodatos/SQLite_Cookbook/blob/main/chapter_1/1.1.sql) | No | [run 1.1](https://sqlime.org/#gist:a53cfd46f105b175b1d961143bf6cbda)  |
+| 1.2 [Retrieving a subset of rows from a table](https://github.com/bibliodatos/SQLite_Cookbook/blob/main/chapter_1/1.2.sql) | No | [run 1.2](https://sqlime.org/#gist:7bfea25a4a440b81accc0c31c6ad3477)|
 | 1.3 [Finding rows that satisfy multiple conditions](https://github.com/bibliodatos/SQLite_Cookbook/blob/main/chapter_1/1.3.sql) | No |
 | 1.4 [Retrieving a subset of columns from a table](https://github.com/bibliodatos/SQLite_Cookbook/blob/main/chapter_1/1.4.sql)| No |
 | 1.5 [Meaningful name for columns](https://github.com/bibliodatos/SQLite_Cookbook/blob/main/chapter_1/1.5.sql)| No |
