@@ -20,3 +20,9 @@ title: SQLite Cookbook Chapter 1
 | 1.11 [Finding NULL values](https://github.com/bibliodatos/SQLite_Cookbook/blob/main/chapter_1/1.11.sql)| No |
 | 1.12 [Transforming NULLs into real values](https://github.com/bibliodatos/SQLite_Cookbook/blob/main/chapter_1/1.12.sql)| No |
 | 1.13 [Searching for patterns](https://github.com/bibliodatos/SQLite_Cookbook/blob/main/chapter_1/1.13.sql)| No |
+
+[SQLite Cookbook Home](./index.html)
+
+Created by **Mike Maynard**
+Project Implemented in **SQLite, DB Browser for SQLite and Markdown**
+Last updated: **2021-12-25**
