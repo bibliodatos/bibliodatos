@@ -10,7 +10,7 @@ title: SQLite Cookbook Chapter 1
 | 1.1 [Retrieving all rows and columns from a table](https://github.com/bibliodatos/SQLite_Cookbook/blob/main/chapter_1/1.1.sql) | No | [run 1.1](https://sqlime.org/#gist:a53cfd46f105b175b1d961143bf6cbda)  |
 | 1.2 [Retrieving a subset of rows from a table](https://github.com/bibliodatos/SQLite_Cookbook/blob/main/chapter_1/1.2.sql) | No | |
 | 1.3 [Finding rows that satisfy multiple conditions](https://github.com/bibliodatos/SQLite_Cookbook/blob/main/chapter_1/1.3.sql) | No |
-| 1.4 [Retrieving a subset of columns from a table](https://github.com/bibliodatos/SQLite_Cookbook/blob/main/chapter_1/1.4.sql)| No |
+| 1.4 [Retrieving a subset of columns from a table](https://github.com/bibliodatos/SQLite_Cookbook/blob/main/chapter_1/1.4.sql)| No | [run 1.4](https://sqlime.org/#gist:7bfea25a4a440b81accc0c31c6ad3477)|
 | 1.5 [Meaningful name for columns](https://github.com/bibliodatos/SQLite_Cookbook/blob/main/chapter_1/1.5.sql)| No |
 | 1.6 [Referencing an aliased column in WHERE clause](https://github.com/bibliodatos/SQLite_Cookbook/blob/main/chapter_1/1.6.sql)| No | [run 1.6](https://sqlime.org/#gist:eea122f8c730f7a3c2d5dd33eb91eeee)|
 | 1.7 [Concatenating column values](https://github.com/bibliodatos/SQLite_Cookbook/blob/main/chapter_1/1.7.sql)| [Yes](concat.html) | [run 1.7](https://sqlime.org/#gist:31cdfd2f1ec3da5f51d0e662aa26a663)|
