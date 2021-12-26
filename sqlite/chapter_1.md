@@ -23,6 +23,6 @@ title: SQLite Cookbook Chapter 1
 
 [SQLite Cookbook Home](./index.html)
 
-Created by **Mike Maynard**
-Project Implemented in **SQLite, DB Browser for SQLite, SQLime.org and Markdown**
+Created by **Mike Maynard**<BR>
+Project Implemented in **SQLite, DB Browser for SQLite, SQLime.org and Markdown**<BR>
 Last updated: **2021-12-25**
