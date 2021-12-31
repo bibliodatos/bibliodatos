@@ -5,7 +5,7 @@ title: SQLite Cookbook Chapter 2
 
 ### Sorting Query Results
 
-| SQLite Query        | MySQL<br>differences? | Run query on sqlime.org |
+| SQLite Query &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;       | MySQL<br>differences? | Run query on sqlime.org |
 | ------------ | ------------ |
 | **2.1** [Results in a specified order](https://github.com/bibliodatos/SQLite_Cookbook/blob/main/chapter_2/2.1.sql)<br>  2.1.a  - Ascending<br>  2.1.b - Descending<br>  2.1.c - Descending by value in third column | No | [run 2.1.a](https://sqlime.org/#gist:d4c9c5d7fde993304b59fdb51059701f)<br>[run 2.1.b](https://sqlime.org/#gist:6c6cc239ea780bd808948c2f6e8a02ed)<br>[run 2.1.c](https://sqlime.org/#gist:e5943e9e3bb4d1304d850e3693b48272) |
 | **2.2** [Results sorted by multiple fields](https://github.com/bibliodatos/SQLite_Cookbook/blob/main/chapter_2/2.2.sql) | No | [run 2.2](https://sqlime.org/#gist:d0d5f1ff743bf98c628efc437c906102) |
