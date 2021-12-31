@@ -13,8 +13,8 @@ title: SQLite Cookbook Chapter 2
 | **2.4** [Sorting mixed alphanumeric data](https://github.com/bibliodatos/SQLite_Cookbook/blob/main/chapter_2/2.4.sql)| No 'Translate' function in SQLite or MySQL | |
 | **2.5** [Dealing with NULLs when sorting](https://github.com/bibliodatos/SQLite_Cookbook/blob/main/chapter_2/2.5.sql)<BR> 2.4.a NULLS sort first by default<BR>2.5.b Make NULLS sort last using DESC<BR>2.5.c NON-NULL commission sorted ascending and all NULLS last<BR>2.5.d NON-NULL commission sorted descending and all NULLS last<BR>2.5.e NON-NULL commission sorted ascending and all NULLS first<BR>2.4.f NON-NULL commission sorted descending and all NULLS first | No | [run 2.5.a](https://sqlime.org/#gist:537dc372b70fcf51f7192026d99c32c1)<BR>[run 2.5.b](https://sqlime.org/#gist:bf423fccfb569857aa1f41a016afeb42)<BR>[run 2.5.c](https://sqlime.org/#gist:c68100f42a0a1bfc287110532709c13c)<BR>[run 2.5.d](https://sqlime.org/#gist:2f501f93831e5c0167053f729ef5af04)<BR>[run 2.5.e](https://sqlime.org/#gist:a2b938e47d56508a23292e56f98b259c)<BR>[run 2.5.f](https://sqlime.org/#gist:60aab3298ea13305c87b4fa99b53b3f7) |
 
-[SQLite Cookbook Home](./index.html)
+<nav>[SQLite Cookbook Home](./index.html) | [Chapter 3](chapter_3.html)</nav>
 
 Created by **Mike Maynard**<BR>
 Project Implemented in **SQLite, DB Browser for SQLite, SQLime.org and Markdown**<BR>
-Last updated: **2021-12-26**
+Last updated: **2021-12-31**
