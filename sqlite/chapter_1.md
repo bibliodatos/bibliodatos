@@ -21,8 +21,8 @@ title: SQLite Cookbook Chapter 1
 | **1.12** [Transforming NULLs into real values](https://github.com/bibliodatos/SQLite_Cookbook/blob/main/chapter_1/1.12.sql)| No | [run 1.12](https://sqlime.org/#gist:dc0aaa95ee1fd78d1d7a88a1c031cc91) |
 | **1.13** [Searching for patterns](https://github.com/bibliodatos/SQLite_Cookbook/blob/main/chapter_1/1.13.sql)| No | [run 1.13](https://sqlime.org/#gist:bfc29fc99d00b2f19e6cb1fe1ea5308c) |
 
-[SQLite Cookbook Home](./index.html)
+[SQLite Cookbook Home](./index.html)  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [Chapter 2 →](chapter_2.html)
 
 Created by **Mike Maynard**<BR>
 Project Implemented in **SQLite, DB Browser for SQLite, SQLime.org and Markdown**<BR>
-Last updated: **2021-12-26**
+Last updated: **2021-12-31**
