@@ -10,7 +10,7 @@ title: SQLite Cookbook Chapter 3
 | **3.1** [Stacking one rowset atop another](https://github.com/bibliodatos/SQLite_Cookbook/blob/main/chapter_3/3.1.sql) | No | [run 3.1]()|
 | **3.2** [Combining related rows](https://github.com/bibliodatos/SQLite_Cookbook/blob/main/chapter_3/3.2.sql) | No | [run 3.2]()|
 | **3.3** [Finding rows in common between two tables](https://github.com/bibliodatos/SQLite_Cookbook/blob/main/chapter_3/3.3.sql) | No | [run 3.3]()|
-| **3.4** [Selecting values from one table that don't exist in another](https://github.com/bibliodatos/SQLite_Cookbook/blob/main/chapter_3/3.4.sql) | No | [run 3.4]()|
+| **3.4** [Selecting values from one table that don't exist in another](https://github.com/bibliodatos/SQLite_Cookbook/blob/main/chapter_3/3.4.sql) | [Yes](except.html) | [run 3.4]()|
 | **3.5** [Selecting rows from one table that don't correspond to rows in another](https://github.com/bibliodatos/SQLite_Cookbook/blob/main/chapter_3/3.5.sql) | No | [run 3.5]()|
 | **3.6** [Adding joins to query without interfering with other joins](https://github.com/bibliodatos/SQLite_Cookbook/blob/main/chapter_3/3.6.sql) | No | [run 3.6]()|
 | **3.7** [Do two tables have the same data?](https://github.com/bibliodatos/SQLite_Cookbook/blob/main/chapter_3/3.7.sql) | No | [run 3.7]()|
